@@ -34,7 +34,7 @@ require __DIR__ . '/partials/layout-top.php';
       </div>
 
       <div class="glass-card panel-pad">
-        <p class="section-kicker">Request A Consultation</p>
+        <h2 class="section-kicker">Request A Consultation</h2>
         <form style="margin-top:1.5rem;display:grid;gap:1rem;">
           <div class="form-grid two">
             <input type="text" placeholder="First name" class="field">

@@ -48,7 +48,7 @@ require __DIR__ . '/partials/layout-top.php';
         <div class="home-board-top">
           <div class="home-board-head">
             <p class="section-kicker">We deliver IT Migration Services built for one outcome</p>
-            <h3 class="home-board-title">A seamless transition with minimal downtime, zero data loss, and full business continuity</h3>
+            <h2 class="home-board-title">A seamless transition with minimal downtime, zero data loss, and full business continuity</h2>
           </div>
         </div>
 
@@ -152,12 +152,12 @@ require __DIR__ . '/partials/layout-top.php';
     </div>
 
     <div class="section-grid-3">
-      <article class="panel-card panel-pad card-lift"><p class="section-kicker">1. Discovery and Assessment</p><p class="muted" style="margin-top:0.7rem;">We evaluate your current IT infrastructure, workloads, dependencies, and risks</p></article>
-      <article class="panel-card panel-pad card-lift"><p class="section-kicker">2. Cloud Migration Strategy</p><p class="muted" style="margin-top:0.7rem;">We design a tailored cloud migration strategy aligned to your cloud journey and business outcomes</p></article>
-      <article class="panel-card panel-pad card-lift"><p class="section-kicker">3. Planning and Architecture</p><p class="muted" style="margin-top:0.7rem;">We map out the migration life cycle including timelines, workload migration paths, and cost optimization strategies</p></article>
-      <article class="panel-card panel-pad card-lift"><p class="section-kicker">4. Pilot and Validation</p><p class="muted" style="margin-top:0.7rem;">We test with controlled environments to ensure a smooth transition and validate real time performance</p></article>
-      <article class="panel-card panel-pad card-lift"><p class="section-kicker">5. Migration Execution</p><p class="muted" style="margin-top:0.7rem;">We execute full scale migration with minimal downtime and zero disruption to business continuity</p></article>
-      <article class="panel-card panel-pad card-lift"><p class="section-kicker">6. Post Migration Support</p><p class="muted" style="margin-top:0.7rem;">We provide migration support, optimization, and knowledge transfer to your internal teams</p></article>
+      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">1. Discovery and Assessment</h3><p class="muted" style="margin-top:0.7rem;">We evaluate your current IT infrastructure, workloads, dependencies, and risks</p></article>
+      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">2. Cloud Migration Strategy</h3><p class="muted" style="margin-top:0.7rem;">We design a tailored cloud migration strategy aligned to your cloud journey and business outcomes</p></article>
+      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">3. Planning and Architecture</h3><p class="muted" style="margin-top:0.7rem;">We map out the migration life cycle including timelines, workload migration paths, and cost optimization strategies</p></article>
+      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">4. Pilot and Validation</h3><p class="muted" style="margin-top:0.7rem;">We test with controlled environments to ensure a smooth transition and validate real time performance</p></article>
+      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">5. Migration Execution</h3><p class="muted" style="margin-top:0.7rem;">We execute full scale migration with minimal downtime and zero disruption to business continuity</p></article>
+      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">6. Post Migration Support</h3><p class="muted" style="margin-top:0.7rem;">We provide migration support, optimization, and knowledge transfer to your internal teams</p></article>
     </div>
 
     <div class="inline-actions" style="justify-content:center;margin-top:2rem;">
@@ -169,7 +169,7 @@ require __DIR__ . '/partials/layout-top.php';
 <section class="page-section">
   <div class="site-container">
     <div class="section-head">
-      <p class="section-kicker">What Makes Us Different</p>
+      <h2 class="section-kicker">What Makes Us Different</h2>
     </div>
     <div class="section-grid-3">
       <article class="glass-card panel-pad card-lift"><h3 style="font-size:1.3rem;">Minimal Downtime Execution</h3><p class="muted" style="margin-top:0.55rem;">Your operations stay live. No unnecessary disruption.</p></article>
@@ -199,7 +199,7 @@ require __DIR__ . '/partials/layout-top.php';
     </div>
 
     <div class="panel-card panel-pad">
-      <p class="section-kicker">Case Study</p>
+      <h2 class="section-kicker">Case Study</h2>
       <p class="section-copy" style="margin-top:1rem;">A financial services organization needed to migrate legacy infrastructure to Microsoft Azure while maintaining strict compliance and uptime requirements.</p>
       <p class="section-copy" style="margin-top:1rem;">We executed a full infrastructure migration and data migration services plan with:</p>
       <div style="display:grid;gap:0.85rem;margin-top:1.3rem;">
@@ -259,7 +259,7 @@ require __DIR__ . '/partials/layout-top.php';
       <h2 class="section-title">Tell us about your environment and we will map out your next step.</h2>
       <p class="section-copy">We will evaluate your current state, define your cloud migration strategy, and give you a clear path forward.</p>
       <div class="panel-card panel-pad" style="margin-top:1.5rem;">
-        <p class="section-kicker">Your Next Step</p>
+        <h3 class="section-kicker">Your Next Step</h3>
         <p class="section-copy" style="margin-top:0.8rem;">You can keep delaying and absorb rising infrastructure costs, increasing risk, and operational inefficiencies</p>
         <p class="section-copy" style="margin-top:0.8rem;">Or you can execute a structured migration with cloud migration experts who know how to do this right</p>
         <p class="section-copy" style="margin-top:1rem;">Start your IT Migration Services engagement today and move forward with confidence</p>
@@ -267,7 +267,7 @@ require __DIR__ . '/partials/layout-top.php';
     </div>
 
     <div class="glass-card panel-pad">
-      <p class="section-kicker">Assessment Form</p>
+      <h2 class="section-kicker">Assessment Form</h2>
       <form style="margin-top:1.5rem;display:grid;gap:1rem;">
         <input type="text" placeholder="Name" class="field">
         <input type="text" placeholder="Job Title" class="field">
