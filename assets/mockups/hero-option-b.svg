@@ -1,0 +1,40 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgB" x1="0" y1="0" x2="1600" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.55" stop-color="#EEF2FF"/>
+      <stop offset="1" stop-color="#E0F2FE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bgB)"/>
+  <rect x="96" y="72" width="1408" height="80" rx="28" fill="white" stroke="#E2E8F0"/>
+  <text x="150" y="121" fill="#0F172A" font-size="22" font-family="Arial, sans-serif" font-weight="700">Migration Services</text>
+  <text x="820" y="121" fill="#475569" font-size="18" font-family="Arial, sans-serif">Home</text>
+  <text x="920" y="121" fill="#0F172A" font-size="18" font-family="Arial, sans-serif" font-weight="700">Solutions</text>
+  <text x="1065" y="121" fill="#475569" font-size="18" font-family="Arial, sans-serif">How It Works</text>
+  <text x="1235" y="121" fill="#475569" font-size="18" font-family="Arial, sans-serif">Pricing</text>
+  <rect x="1330" y="92" width="128" height="40" rx="20" fill="#0F172A"/>
+  <text x="1363" y="118" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">Contact</text>
+  <rect x="126" y="190" width="640" height="650" rx="42" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="176" y="286" fill="#2563EB" font-size="20" font-family="Arial, sans-serif" font-weight="700">ENTERPRISE CLOUD MIGRATION</text>
+  <text x="176" y="390" fill="#0F172A" font-size="84" font-family="Arial, sans-serif" font-weight="800">Clean, calm,</text>
+  <text x="176" y="478" fill="#0F172A" font-size="84" font-family="Arial, sans-serif" font-weight="800">high-trust design</text>
+  <text x="176" y="566" fill="#0F172A" font-size="84" font-family="Arial, sans-serif" font-weight="800">for enterprise buyers.</text>
+  <text x="176" y="646" fill="#475569" font-size="30" font-family="Arial, sans-serif">Hero Option B uses a lighter, executive tone with spacious</text>
+  <text x="176" y="686" fill="#475569" font-size="30" font-family="Arial, sans-serif">cards, cleaner margins, and softer accents.</text>
+  <rect x="176" y="742" width="248" height="70" rx="22" fill="#2563EB"/>
+  <text x="226" y="786" fill="white" font-size="28" font-family="Arial, sans-serif" font-weight="700">Get Started</text>
+  <rect x="454" y="742" width="248" height="70" rx="22" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="512" y="786" fill="#0F172A" font-size="28" font-family="Arial, sans-serif" font-weight="700">View Services</text>
+  <rect x="824" y="190" width="680" height="650" rx="42" fill="#0F172A"/>
+  <rect x="870" y="234" width="588" height="250" rx="30" fill="#111827"/>
+  <circle cx="1110" cy="356" r="112" fill="#2563EB"/>
+  <circle cx="1188" cy="356" r="112" fill="#34D399" fill-opacity="0.9"/>
+  <circle cx="1266" cy="356" r="112" fill="#F59E0B" fill-opacity="0.9"/>
+  <text x="872" y="552" fill="white" font-size="20" font-family="Arial, sans-serif" letter-spacing="4">OPTION B</text>
+  <text x="872" y="620" fill="white" font-size="42" font-family="Arial, sans-serif" font-weight="800">Minimal enterprise +</text>
+  <text x="872" y="672" fill="white" font-size="42" font-family="Arial, sans-serif" font-weight="800">abstract cloud visual</text>
+  <rect x="872" y="720" width="178" height="84" rx="24" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.14"/>
+  <rect x="1074" y="720" width="178" height="84" rx="24" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.14"/>
+  <rect x="1276" y="720" width="178" height="84" rx="24" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.14"/>
+</svg>

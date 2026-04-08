@@ -1,0 +1,37 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="1600" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="0.45" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F0FDF4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="980" fill="url(#bgC)"/>
+  <rect x="92" y="70" width="1416" height="84" rx="30" fill="white" stroke="#E2E8F0"/>
+  <text x="150" y="122" fill="#111827" font-size="22" font-family="Arial, sans-serif" font-weight="700">Migration Services</text>
+  <text x="820" y="122" fill="#6B7280" font-size="18" font-family="Arial, sans-serif">Home</text>
+  <text x="920" y="122" fill="#111827" font-size="18" font-family="Arial, sans-serif" font-weight="700">Solutions</text>
+  <text x="1065" y="122" fill="#6B7280" font-size="18" font-family="Arial, sans-serif">How It Works</text>
+  <text x="1235" y="122" fill="#6B7280" font-size="18" font-family="Arial, sans-serif">Pricing</text>
+  <rect x="1330" y="92" width="128" height="40" rx="20" fill="#111827"/>
+  <text x="1363" y="118" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">Contact</text>
+  <text x="124" y="290" fill="#F97316" font-size="18" font-family="Arial, sans-serif" font-weight="700">OPTION C</text>
+  <text x="124" y="392" fill="#111827" font-size="82" font-family="Arial, sans-serif" font-weight="800">Warmer, more</text>
+  <text x="124" y="478" fill="#111827" font-size="82" font-family="Arial, sans-serif" font-weight="800">human-centered</text>
+  <text x="124" y="564" fill="#111827" font-size="82" font-family="Arial, sans-serif" font-weight="800">consulting look.</text>
+  <text x="124" y="642" fill="#4B5563" font-size="30" font-family="Arial, sans-serif">This direction feels less "software dashboard" and more</text>
+  <text x="124" y="682" fill="#4B5563" font-size="30" font-family="Arial, sans-serif">high-end consulting brand with soft beige and green accents.</text>
+  <rect x="124" y="740" width="248" height="72" rx="22" fill="#111827"/>
+  <text x="179" y="785" fill="white" font-size="28" font-family="Arial, sans-serif" font-weight="700">Book Discovery</text>
+  <rect x="400" y="740" width="248" height="72" rx="22" fill="#FFF7ED" stroke="#F59E0B"/>
+  <text x="454" y="785" fill="#111827" font-size="28" font-family="Arial, sans-serif" font-weight="700">See Approach</text>
+  <rect x="840" y="188" width="680" height="664" rx="44" fill="white" stroke="#E5E7EB"/>
+  <rect x="882" y="228" width="596" height="220" rx="30" fill="#FEF3C7"/>
+  <rect x="914" y="260" width="256" height="156" rx="26" fill="#111827"/>
+  <rect x="1198" y="260" width="248" height="156" rx="26" fill="#DCFCE7"/>
+  <text x="918" y="532" fill="#111827" font-size="42" font-family="Arial, sans-serif" font-weight="800">Consulting-led hero</text>
+  <text x="918" y="584" fill="#4B5563" font-size="28" font-family="Arial, sans-serif">Stronger people-and-process feel with lighter structure,</text>
+  <text x="918" y="620" fill="#4B5563" font-size="28" font-family="Arial, sans-serif">warmer tones, and more approachable messaging.</text>
+  <rect x="918" y="684" width="248" height="126" rx="26" fill="#FFF7ED" stroke="#FCD34D"/>
+  <rect x="1192" y="684" width="248" height="126" rx="26" fill="#F0FDF4" stroke="#86EFAC"/>
+</svg>

@@ -1,13 +1,54 @@
     </main>
 
-    <footer class="border-t border-slate-200/80 bg-white/60">
-      <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-        <p>© <?= date('Y') ?> Badi Digital. Migration planning, execution, and support.</p>
-        <div class="flex flex-wrap items-center gap-5">
-          <a href="#overview" class="transition hover:text-ink">Overview</a>
-          <a href="#services" class="transition hover:text-ink">Services</a>
-          <a href="#process" class="transition hover:text-ink">Process</a>
-          <a href="#contact" class="transition hover:text-ink">Contact</a>
+    <footer class="footer-shell">
+      <div class="site-container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.php" class="brand-link">
+              <span class="brand-mark">
+                <i data-lucide="waypoints" class="h-4 w-4"></i>
+              </span>
+              <span class="brand-name">Migration Services</span>
+            </a>
+            <p class="muted" style="margin-top:1rem;">Modern migration services for Microsoft 365, M&A transitions, cloud workloads, and business-critical systems.</p>
+          </div>
+
+          <div>
+            <p class="section-kicker">Navigation</p>
+            <div class="footer-links" style="margin-top:1rem;">
+              <a href="index.php">Home</a>
+              <a href="how-it-works.php">How It Works</a>
+              <a href="contact.php">Contact</a>
+              <a href="#">Pricing</a>
+            </div>
+          </div>
+
+          <div>
+            <p class="section-kicker">Services</p>
+            <div class="footer-links" style="margin-top:1rem;">
+              <a href="microsoft-365.php">Microsoft 365 Migration</a>
+              <a href="mergers-and-acquisition.php">M&A IT Migration</a>
+              <a href="contact.php">Cloud Migration</a>
+              <a href="contact.php">Identity & Security</a>
+            </div>
+          </div>
+
+          <div>
+            <p class="section-kicker">Contact</p>
+            <div class="footer-links" style="margin-top:1rem;">
+              <a href="mailto:hello@example.com">hello@example.com</a>
+              <a href="tel:+639000000000">+63 900 000 0000</a>
+              <span class="muted">Remote delivery for global organizations and fast-moving IT teams.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© <?= date('Y') ?> Migration Services. All rights reserved.</p>
+          <div class="footer-inline">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+          </div>
         </div>
       </div>
     </footer>
