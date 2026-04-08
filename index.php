@@ -205,12 +205,16 @@ require __DIR__ . '/partials/layout-top.php';
 
 <section class="page-section tight">
   <div class="site-container">
-    <div class="cta-banner center-text">
-      <p class="section-kicker">Start With Clarity</p>
-      <h2 class="section-title" style="margin-top:1rem;">Need help shaping the right migration program?</h2>
-      <p class="section-copy" style="margin:1rem auto 0;max-width:42rem;">We can help define the scope, architecture, migration sequence, and communication plan before anything moves.</p>
-      <div class="inline-actions" style="justify-content:center;">
-        <a href="contact.php" class="button-primary">Book a migration consultation <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+    <div class="cta-banner">
+      <div class="cta-banner-grid">
+        <div class="cta-banner-copy">
+          <p class="section-kicker">Start With Clarity</p>
+          <h2 class="section-title">Need help shaping the right migration program?</h2>
+          <p class="section-copy">We can help define the scope, architecture, migration sequence, and communication plan before anything moves.</p>
+        </div>
+        <div class="cta-banner-actions">
+          <a href="contact.php" class="button-primary">Book a migration consultation <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+        </div>
       </div>
     </div>
   </div>
