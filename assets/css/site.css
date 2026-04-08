@@ -18,7 +18,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Manrope", sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--text);
   background:
     radial-gradient(circle at top left, rgba(79, 124, 255, 0.18), transparent 28rem),
@@ -100,8 +100,9 @@ img {
 }
 
 .brand-name {
-  font-size: 1rem;
+  font-size: 0.98rem;
   font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .site-header-nav {
@@ -120,10 +121,12 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.8rem 1rem;
+  padding: 0.78rem 0.95rem;
   border-radius: 999px;
   color: #cdd7ec;
   text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 600;
   transition: background-color 180ms ease, color 180ms ease;
 }
 
@@ -201,6 +204,9 @@ img {
   padding: 0.95rem 1.2rem;
   border-radius: 1rem;
   text-decoration: none;
+  font-size: 0.94rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
   transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease, border-color 180ms ease;
 }
 
@@ -497,21 +503,27 @@ img {
 .hero-title,
 .section-title {
   margin: 1rem 0 0;
-  line-height: 0.98;
-  letter-spacing: -0.05em;
+  line-height: 1;
+  letter-spacing: -0.055em;
+  font-weight: 700;
 }
 
 .hero-title {
   max-width: 10ch;
-  font-size: clamp(2.15rem, 3.25vw, 4rem);
+  font-size: clamp(2.15rem, 3.15vw, 3.8rem);
 }
 
 .section-title {
-  font-size: clamp(2rem, 3vw, 3.1rem);
+  font-size: clamp(1.85rem, 2.7vw, 2.85rem);
 }
 
 h1.section-title {
-  font-size: clamp(2rem, 3vw, 3.4rem);
+  font-size: clamp(1.95rem, 2.9vw, 3rem);
+}
+
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.03em;
 }
 
 .hero-copy,
@@ -524,7 +536,8 @@ h1.section-title {
 .hero-copy {
   max-width: 42rem;
   margin-top: 1.5rem;
-  font-size: 1.08rem;
+  font-size: 0.98rem;
+  line-height: 1.72;
 }
 
 .hero-actions,
@@ -621,8 +634,17 @@ h1.section-title {
   color: var(--blue-soft);
   text-transform: uppercase;
   letter-spacing: 0.24em;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 700;
+}
+
+p,
+li,
+input,
+select,
+textarea,
+button {
+  letter-spacing: -0.015em;
 }
 
 .logo-pill {
