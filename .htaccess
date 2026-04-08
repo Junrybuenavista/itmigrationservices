@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^sitemap_index\.xml$ sitemap_index.php [L]
