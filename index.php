@@ -20,11 +20,11 @@ require __DIR__ . '/partials/layout-top.php';
       <p class="hero-copy">We help organizations migrate cloud platforms, modernize collaboration, consolidate after M&A activity, and move critical workloads with the structure enterprise teams expect.</p>
 
       <div class="hero-actions">
-        <a href="contact.php" class="button-primary">
+        <a href="contact" class="button-primary">
           Start a migration plan
           <i data-lucide="arrow-right" class="h-4 w-4"></i>
         </a>
-        <a href="how-it-works.php" class="button-secondary">
+        <a href="how-it-works" class="button-secondary">
           Explore our process
           <i data-lucide="workflow" class="h-4 w-4"></i>
         </a>
@@ -124,7 +124,7 @@ require __DIR__ . '/partials/layout-top.php';
       <h2 class="section-title">Everything your IT migration program needs in one system.</h2>
       <p class="section-copy">From Microsoft 365 migrations to M&A integration and cloud platform modernization, we build the transition model, execute the move, and guide the team through the change.</p>
       <div class="inline-actions">
-        <a href="contact.php" class="button-primary">Talk to a specialist <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+        <a href="contact" class="button-primary">Talk to a specialist <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
       </div>
     </div>
 
@@ -213,7 +213,7 @@ require __DIR__ . '/partials/layout-top.php';
           <p class="section-copy">We can help define the scope, architecture, migration sequence, and communication plan before anything moves.</p>
         </div>
         <div class="cta-banner-actions">
-          <a href="contact.php" class="button-primary">Book a migration consultation <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+          <a href="contact" class="button-primary">Book a migration consultation <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
         </div>
       </div>
     </div>

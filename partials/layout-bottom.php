@@ -4,7 +4,7 @@
       <div class="site-container">
         <div class="footer-grid">
           <div>
-            <a href="index.php" class="brand-link">
+            <a href="./" class="brand-link">
               <span class="brand-mark">
                 <i data-lucide="waypoints" class="h-4 w-4"></i>
               </span>
@@ -16,9 +16,9 @@
           <div>
             <p class="section-kicker">Navigation</p>
             <div class="footer-links" style="margin-top:1rem;">
-              <a href="index.php">Home</a>
-              <a href="how-it-works.php">How It Works</a>
-              <a href="contact.php">Contact</a>
+              <a href="./">Home</a>
+              <a href="how-it-works">How It Works</a>
+              <a href="contact">Contact</a>
               <a href="#">Pricing</a>
             </div>
           </div>
@@ -26,10 +26,10 @@
           <div>
             <p class="section-kicker">Services</p>
             <div class="footer-links" style="margin-top:1rem;">
-              <a href="microsoft-365.php">Microsoft 365 Migration</a>
-              <a href="mergers-and-acquisition.php">M&A IT Migration</a>
-              <a href="contact.php">Cloud Migration</a>
-              <a href="contact.php">Identity & Security</a>
+              <a href="microsoft-365">Microsoft 365 Migration</a>
+              <a href="mergers-and-acquisition">M&A IT Migration</a>
+              <a href="contact">Cloud Migration</a>
+              <a href="contact">Identity & Security</a>
             </div>
           </div>
 

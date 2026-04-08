@@ -2,7 +2,7 @@
 $page = [
     'title' => 'M&A IT Migration Services | Post-Merger IT Integration',
     'description' => 'M&A IT migration services for tenant consolidation, identity alignment, and post-merger technology integration with less disruption.',
-    'canonical' => 'https://itmigrationservices.com/mergers-and-acquisition.php',
+    'canonical' => 'https://itmigrationservices.com/mergers-and-acquisition',
     'active' => 'ma',
     'body_class' => 'site-shell',
 ];
@@ -15,7 +15,7 @@ require __DIR__ . '/partials/layout-top.php';
       <h1 class="hero-title">Merge systems, identities, and teams with less disruption.</h1>
       <p class="hero-copy">We support post-merger IT integration with tenant consolidation, platform alignment, data migration, and controlled cutover planning across both organizations.</p>
       <div class="hero-actions">
-        <a href="contact.php" class="button-primary">Plan your integration <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+        <a href="contact" class="button-primary">Plan your integration <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
       </div>
     </div>
     <div class="fade-up delay-1">

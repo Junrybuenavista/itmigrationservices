@@ -7,18 +7,18 @@ $activePage = $page['active'] ?? 'home';
 $bodyClass = $page['body_class'] ?? 'site-shell';
 
 $mainNav = [
-    ['label' => 'Home', 'href' => 'index.php', 'key' => 'home'],
-    ['label' => 'How It Works', 'href' => 'how-it-works.php', 'key' => 'how'],
+    ['label' => 'Home', 'href' => './', 'key' => 'home'],
+    ['label' => 'How It Works', 'href' => 'how-it-works', 'key' => 'how'],
     ['label' => 'Pricing', 'href' => '#', 'key' => 'pricing'],
 ];
 
 $solutions = [
-    ['label' => 'Microsoft 365 Migration', 'href' => 'microsoft-365.php', 'key' => 'm365'],
-    ['label' => 'M&A IT Migration', 'href' => 'mergers-and-acquisition.php', 'key' => 'ma'],
-    ['label' => 'Cloud Migration', 'href' => 'contact.php', 'key' => 'cloud'],
-    ['label' => 'Data Migration', 'href' => 'contact.php', 'key' => 'data'],
-    ['label' => 'Application Migration', 'href' => 'contact.php', 'key' => 'app'],
-    ['label' => 'Identity & Security', 'href' => 'contact.php', 'key' => 'identity'],
+    ['label' => 'Microsoft 365 Migration', 'href' => 'microsoft-365', 'key' => 'm365'],
+    ['label' => 'M&A IT Migration', 'href' => 'mergers-and-acquisition', 'key' => 'ma'],
+    ['label' => 'Cloud Migration', 'href' => 'contact', 'key' => 'cloud'],
+    ['label' => 'Data Migration', 'href' => 'contact', 'key' => 'data'],
+    ['label' => 'Application Migration', 'href' => 'contact', 'key' => 'app'],
+    ['label' => 'Identity & Security', 'href' => 'contact', 'key' => 'identity'],
 ];
 ?>
 <!DOCTYPE html>
@@ -39,7 +39,7 @@ $solutions = [
   <div class="site-grid">
     <div class="site-container site-header-shell">
       <header class="site-header">
-        <a href="index.php" class="brand-link">
+        <a href="./" class="brand-link">
           <span class="brand-mark">
             <i data-lucide="waypoints" class="h-4 w-4"></i>
           </span>
@@ -72,7 +72,7 @@ $solutions = [
           </div>
         </nav>
 
-        <a href="contact.php" class="header-cta">
+        <a href="contact" class="header-cta">
           Contact
           <i data-lucide="arrow-right" class="h-4 w-4"></i>
         </a>

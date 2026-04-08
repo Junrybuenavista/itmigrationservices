@@ -23,7 +23,7 @@ foreach ($pages as $pagePath) {
     $lastModified = gmdate('c', (int) filemtime($pagePath));
 
     $urls[] = [
-        'loc' => $baseUrl . ($slug === '' ? '/' : $slug . '.php'),
+        'loc' => $baseUrl . ($slug === '' ? '/' : $slug),
         'lastmod' => $lastModified,
         'changefreq' => $filename === 'index.php' ? 'weekly' : 'monthly',
         'priority' => $filename === 'index.php' ? '1.0' : '0.8',

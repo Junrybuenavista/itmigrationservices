@@ -2,7 +2,7 @@
 $page = [
     'title' => 'Contact IT Migration Specialists | Request a Migration Consultation',
     'description' => 'Contact our IT migration specialists to discuss Microsoft 365, cloud, M&A, and infrastructure migration projects.',
-    'canonical' => 'https://itmigrationservices.com/contact.php',
+    'canonical' => 'https://itmigrationservices.com/contact',
     'active' => 'contact',
     'body_class' => 'site-shell',
 ];

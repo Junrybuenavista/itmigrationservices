@@ -1,3 +1,16 @@
 RewriteEngine On
 
 RewriteRule ^sitemap_index\.xml$ sitemap_index.php [L]
+
+# Redirect explicit PHP URLs to extensionless URLs.
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^(.+)\.php$ /$1 [R=301,L]
+
+# Serve extensionless URLs from matching PHP files.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-zA-Z0-9-]+)/?$ $1.php [L]

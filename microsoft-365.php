@@ -2,7 +2,7 @@
 $page = [
     'title' => 'Microsoft 365 Migration Services | Email, Files & Teams Migration',
     'description' => 'Microsoft 365 migration services for email, files, Teams, and SharePoint with structured planning, validation, and smooth cutover.',
-    'canonical' => 'https://itmigrationservices.com/microsoft-365.php',
+    'canonical' => 'https://itmigrationservices.com/microsoft-365',
     'active' => 'm365',
     'body_class' => 'site-shell',
 ];
@@ -15,7 +15,7 @@ require __DIR__ . '/partials/layout-top.php';
       <h1 class="hero-title">Move into Microsoft 365 without losing control.</h1>
       <p class="hero-copy">We migrate email, files, SharePoint, Teams, permissions, and user identities into Microsoft 365 with a process designed for cleaner cutover and smoother adoption.</p>
       <div class="hero-actions">
-        <a href="contact.php" class="button-primary">Request a migration review <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+        <a href="contact" class="button-primary">Request a migration review <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
       </div>
     </div>
     <div class="fade-up delay-1">

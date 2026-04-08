@@ -2,7 +2,7 @@
 $page = [
     'title' => 'How Our IT Migration Process Works | Planning to Cutover',
     'description' => 'See how our IT migration process moves from discovery and planning to cutover, validation, and post-migration support.',
-    'canonical' => 'https://itmigrationservices.com/how-it-works.php',
+    'canonical' => 'https://itmigrationservices.com/how-it-works',
     'active' => 'how',
     'body_class' => 'site-shell',
 ];
@@ -15,7 +15,7 @@ require __DIR__ . '/partials/layout-top.php';
       <h1 class="hero-title">A clearer path from discovery to stable cutover.</h1>
       <p class="hero-copy">Our migration process is built to make planning visible, execution deliberate, and post-go-live support part of the strategy from the start.</p>
       <div class="hero-actions">
-        <a href="contact.php" class="button-primary">Talk to our team <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+        <a href="contact" class="button-primary">Talk to our team <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
       </div>
     </div>
     <div class="fade-up delay-1">
