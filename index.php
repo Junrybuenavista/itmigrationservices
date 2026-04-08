@@ -104,7 +104,7 @@
           </span>
 
           <h1 class="mt-6 max-w-3xl text-4xl font-bold leading-[1.06] tracking-tight sm:text-5xl lg:text-[4.25rem]">
-            IT migration services built for business continuity, growth, and control.
+            IT migration services built for business continuity, growth, and control test.
           </h1>
 
           <p class="mt-6 max-w-2xl text-lg leading-8 text-blue-50/95">
