@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>M&amp;A IT Migration Services | Post-Merger IT Integration</title>
-  <meta name="description" content="M&amp;A IT migration services for tenant consolidation, identity alignment, data migration, and post-merger technology integration with minimal disruption.">
+  <meta name="description" content="M&amp;A IT migration services for tenant consolidation, identity alignment, and post-merger technology integration with less disruption.">
   <link rel="canonical" href="https://itmigrationservices.com/mergers-and-acquisition.php">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>How Our IT Migration Process Works | Planning to Cutover</title>
-  <meta name="description" content="See how our IT migration process works from discovery and planning to pilot migration, cutover, validation, and post-migration support.">
+  <meta name="description" content="See how our IT migration process moves from discovery and planning to cutover, validation, and post-migration support.">
   <link rel="canonical" href="https://itmigrationservices.com/how-it-works.php">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IT Migration Services | Cloud, Microsoft 365 & M&amp;A Migration</title>
-  <meta name="description" content="IT migration services for Microsoft 365, cloud platforms, M&amp;A integration, data migration, and infrastructure modernization with business continuity in mind.">
+  <meta name="description" content="IT migration services for Microsoft 365, cloud, data, and M&amp;A transitions with planning, validation, and business continuity.">
   <link rel="canonical" href="https://itmigrationservices.com/">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">

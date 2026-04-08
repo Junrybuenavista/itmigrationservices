@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact IT Migration Specialists | Request a Migration Consultation</title>
-  <meta name="description" content="Contact our IT migration specialists to discuss Microsoft 365 migration, cloud migration, M&amp;A integration, and infrastructure transition projects.">
+  <meta name="description" content="Contact our IT migration specialists to discuss Microsoft 365, cloud, M&amp;A, and infrastructure migration projects.">
   <link rel="canonical" href="https://itmigrationservices.com/contact.php">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">

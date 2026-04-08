@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Microsoft 365 Migration Services | Email, Files & Teams Migration</title>
-  <meta name="description" content="Microsoft 365 migration services for email, files, permissions, Teams, SharePoint, and user onboarding with structured planning and controlled cutover.">
+  <meta name="description" content="Microsoft 365 migration services for email, files, Teams, and SharePoint with structured planning, validation, and smooth cutover.">
   <link rel="canonical" href="https://itmigrationservices.com/microsoft-365.php">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
