@@ -1,274 +1,377 @@
 <?php
 $page = [
-    'title' => 'Microsoft 365 Migration Services | Email, Files & Teams Migration',
+    'title'       => 'Microsoft 365 Migration Services | Email, Files & Teams Migration',
     'description' => 'Microsoft 365 migration services for email, files, Teams, and SharePoint with structured planning, validation, and smooth cutover.',
-    'canonical' => 'https://itmigrationservices.com/microsoft-365',
-    'active' => 'm365',
-    'body_class' => 'site-shell',
+    'canonical'   => 'https://itmigrationservices.com/microsoft-365',
+    'active'      => 'm365',
 ];
 require __DIR__ . '/partials/layout-top.php';
 ?>
-<section class="hero-shell">
-  <div class="site-container hero-grid">
-    <div class="fade-up">
-      <span class="eyebrow"><i data-lucide="mail" class="h-4 w-4"></i> Microsoft 365 migration services</span>
-      <h1 class="hero-title">Migrate to Microsoft 365 with a calmer, cleaner rollout.</h1>
-      <p class="hero-copy">We help teams move email, files, Teams, SharePoint, identities, and collaboration settings into Microsoft 365 with clearer planning, lower disruption, and better user readiness.</p>
 
-      <div class="hero-actions">
-        <a href="contact" class="button-primary">Request a migration review <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
-        <a href="how-it-works" class="button-secondary">See how delivery works <i data-lucide="workflow" class="h-4 w-4"></i></a>
+<!-- ══════════════════════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gradient-to-br from-blue-800 via-blue-700 to-cyan-500 text-white pt-20 pb-28 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="bg-blue-400/20 border border-blue-300/40 text-blue-100 text-xs font-semibold px-3 py-1.5 rounded-full">Never Renew Contracts For Migration Anymore</span>
+          <span class="bg-cyan-400/20 border border-cyan-400/40 text-cyan-200 text-xs font-semibold px-3 py-1.5 rounded-full">Email, Files, Teams &amp; Teams Transfers</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+          Microsoft 365 Migration Services
+        </h1>
+        <p class="mt-5 text-blue-100 text-lg leading-relaxed max-w-xl">
+          We help teams move email, files, Teams, SharePoint, identities, and collaboration settings into Microsoft 365 with clearer planning, lower disruption, and better user readiness.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="contact"
+             class="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all text-sm">
+            Get a Migration Assessment
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+          <a href="how-it-works"
+             class="inline-flex items-center gap-2 bg-white/10 border border-white/25 text-white font-semibold px-6 py-3.5 rounded-xl hover:bg-white/20 transition-all text-sm">
+            See How Delivery Works
+          </a>
+        </div>
       </div>
 
-      <div class="hero-stats">
-        <div class="glass-card panel-pad">
-          <p class="text-3xl font-bold">Mailbox</p>
-          <p class="muted" style="margin-top:0.6rem;">Exchange and Google Workspace transitions handled with staged cutover planning.</p>
-        </div>
-        <div class="glass-card panel-pad">
-          <p class="text-3xl font-bold">Files</p>
-          <p class="muted" style="margin-top:0.6rem;">OneDrive, SharePoint, and shared repository migrations mapped with structure.</p>
-        </div>
-        <div class="glass-card panel-pad">
-          <p class="text-3xl font-bold">Users</p>
-          <p class="muted" style="margin-top:0.6rem;">Identity, permissions, communication, and adoption aligned around go-live.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="fade-up delay-1">
-      <div class="glass-card panel-pad float-soft">
-        <div class="media-frame" style="height:280px;">
-          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="Microsoft 365 migration planning workspace with team dashboards">
-        </div>
-        <div class="section-grid-2" style="margin-top:1.25rem;">
-          <div class="panel-card panel-pad">
-            <p class="section-kicker">Migration Areas</p>
-            <h3 style="margin-top:0.8rem;font-size:1.45rem;">Mail, files, Teams, SharePoint, and identity.</h3>
+      <!-- Card -->
+      <div class="animate-float">
+        <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-6 shadow-2xl">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=900&auto=format&fit=crop"
+               alt="Microsoft 365 migration planning"
+               class="w-full h-52 object-cover rounded-2xl mb-5">
+          <div class="grid grid-cols-2 gap-3">
+            <div class="bg-white/10 rounded-2xl p-4">
+              <p class="text-xs text-blue-200 uppercase tracking-widest font-semibold mb-1">Migration Areas</p>
+              <p class="text-white text-sm font-semibold">Mail, files, Teams, SharePoint, and identity.</p>
+            </div>
+            <div class="bg-blue-600/50 border border-blue-400/30 rounded-2xl p-4">
+              <p class="text-xs text-blue-200 uppercase tracking-widest font-semibold mb-1">Outcome</p>
+              <p class="text-white text-sm font-semibold">A more organized tenant and a smoother user transition.</p>
+            </div>
           </div>
-          <div class="panel-card panel-pad" style="background:linear-gradient(135deg,#1d4ed8 0%,#2563eb 100%);border-color:rgba(96,165,250,0.28);">
-            <p class="section-kicker" style="color:#dbeafe;">Outcome</p>
-            <h3 style="margin-top:0.8rem;font-size:1.45rem;line-height:1.2;">A more organized tenant and a smoother user transition.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     PLATFORM TAGS
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-900 text-white py-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-wrap items-center justify-center gap-4">
+      <?php foreach(['Microsoft 365','Exchange','SharePoint','Teams','OneDrive','Azure AD'] as $t): ?>
+        <span class="bg-gray-800 border border-gray-700 text-gray-300 text-xs font-semibold px-4 py-2 rounded-full"><?= $t ?></span>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     SERVICES COVERED — dark
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-900 text-white pb-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <p class="text-blue-400 text-xs uppercase tracking-widest font-semibold mb-3">Full Coverage</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">What We Migrate</h2>
+      <p class="mt-4 text-gray-400 max-w-2xl mx-auto">Migration routes we plan, validate, and execute for organizations moving to or within Microsoft 365.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <?php
+      $m365Services = [
+        ['icon'=>'mail',       'label'=>'Google Workspace to Microsoft 365 Migration', 'desc'=>'Full mailbox, Drive, and collaboration migration from Google Workspace into the right M365 structure.'],
+        ['icon'=>'at-sign',    'label'=>'Exchange to Microsoft 365 Migration',          'desc'=>'On-premises Exchange cutover with domain validation, alias handling, and minimal mail flow disruption.'],
+        ['icon'=>'users',      'label'=>'Tenant to Tenant Migration',                   'desc'=>'Move users, mailboxes, and content between two Microsoft 365 tenants with sequenced wave delivery.'],
+        ['icon'=>'message-square','label'=>'Slack to Teams Migration',                  'desc'=>'Migrate channels, history, and workflows from Slack into Microsoft Teams with structure.'],
+        ['icon'=>'video',      'label'=>'Zoom to Teams Migration',                      'desc'=>'Transition meetings, recordings, and calling from Zoom to Microsoft Teams with minimal disruption.'],
+        ['icon'=>'cloud',      'label'=>'Dropbox to Microsoft 365 Migration',           'desc'=>'Migrate files, folders, and shared content from Dropbox to OneDrive and SharePoint.'],
+        ['icon'=>'box',        'label'=>'Box to Microsoft 365 Migration',               'desc'=>'Content migration from Box into OneDrive and SharePoint with permission mapping and structure.'],
+        ['icon'=>'folder',     'label'=>'File Server to SharePoint Migration',          'desc'=>'Lift file shares, network drives, and departmental content into a structured SharePoint environment.'],
+        ['icon'=>'globe-2',    'label'=>'SharePoint On-Prem to SharePoint Online',      'desc'=>'Modernize on-premises SharePoint farms into SharePoint Online with content validation and cleanup.'],
+      ];
+      foreach ($m365Services as $s):
+      ?>
+        <div class="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:border-blue-500/50 hover:-translate-y-1 transition-all">
+          <div class="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mb-4">
+            <i data-lucide="<?= $s['icon'] ?>" class="w-6 h-6 text-blue-400"></i>
+          </div>
+          <h3 class="font-bold text-white text-sm leading-snug mb-2"><?= $s['label'] ?></h3>
+          <p class="text-gray-400 text-sm leading-relaxed"><?= $s['desc'] ?></p>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     MIGRATION SERVICES BUILT FOR GROWTH — split
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+      <div>
+        <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Microsoft 365 Migration</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+          Migration Services Built for Secure, Scalable Growth
+        </h2>
+        <p class="mt-4 text-gray-500 leading-relaxed">
+          Your organization is planning a Microsoft 365 migration, and we have been doing migrations like yours for years. Our team builds a smooth road for you and your users, planning a smooth transition for you, and delivers an exceptional experience for the users and teams involved.
+        </p>
+        <p class="mt-4 text-gray-500 leading-relaxed">
+          Whether you are starting a new Microsoft 365 Exchange migration, managing a Google Workspace migration, or starting a tenant-to-tenant migration, our specialized migration experts will complete the process with minimal disruption and validated results.
+        </p>
+        <div class="mt-8 grid sm:grid-cols-2 gap-4">
+          <div class="bg-gray-50 rounded-2xl p-5 border border-gray-200">
+            <i data-lucide="layout-grid" class="w-6 h-6 text-blue-600 mb-3"></i>
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">Tenant Cleanup</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">Reduce sprawl and design the new Microsoft 365 structure before content starts moving.</p>
+          </div>
+          <div class="bg-gray-50 rounded-2xl p-5 border border-gray-200">
+            <i data-lucide="users" class="w-6 h-6 text-blue-600 mb-3"></i>
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">User Readiness</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">Communication, onboarding, and support flows are built into the migration plan.</p>
           </div>
         </div>
       </div>
+      <div class="rounded-3xl overflow-hidden shadow-2xl">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=900&auto=format&fit=crop"
+             alt="Microsoft 365 migration team"
+             class="w-full h-[440px] object-cover">
+      </div>
     </div>
   </div>
 </section>
 
-<section class="page-section tight">
-  <div class="site-container">
-    <div class="logo-row">
-      <div class="logo-pill">Microsoft 365</div>
-      <div class="logo-pill">Exchange</div>
-      <div class="logo-pill">SharePoint</div>
-      <div class="logo-pill">Teams</div>
-      <div class="logo-pill">OneDrive</div>
-      <div class="logo-pill">Azure AD</div>
+<!-- ══════════════════════════════════════════════════════════════════
+     MIGRATION PROCESS — 4 steps
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Delivery Framework</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Our Migration Process</h2>
+      <p class="mt-4 text-gray-500">A proven four-phase framework that makes Microsoft 365 migration easier to manage, track, and communicate to stakeholders.</p>
+    </div>
+
+    <!-- Timeline -->
+    <div class="relative">
+      <div class="hidden lg:block absolute top-8 left-[12.5%] right-[12.5%] h-0.5 bg-blue-200"></div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <?php
+        $process = [
+          ['n'=>'01','title'=>'Assess',    'icon'=>'search',      'desc'=>'Review source systems, licensing, domains, content volumes, and identity dependencies.'],
+          ['n'=>'02','title'=>'Design',    'icon'=>'pencil-ruler', 'desc'=>'Build the target tenant model, wave sequencing, and validation checkpoints.'],
+          ['n'=>'03','title'=>'Migrate',   'icon'=>'arrow-right-circle','desc'=>'Run pilot moves and production migration waves for mail, files, Teams, and SharePoint.'],
+          ['n'=>'04','title'=>'Stabilize', 'icon'=>'shield-check', 'desc'=>'Support the new environment, resolve issues, and guide users into the new workflow.'],
+        ];
+        foreach ($process as $step):
+        ?>
+          <div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all text-center relative">
+            <div class="w-14 h-14 bg-blue-600 text-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-md">
+              <i data-lucide="<?= $step['icon'] ?>" class="w-6 h-6"></i>
+            </div>
+            <span class="text-xs text-blue-600 font-black uppercase tracking-widest"><?= $step['n'] ?></span>
+            <h3 class="font-extrabold text-gray-900 text-xl mt-1 mb-2"><?= $step['title'] ?></h3>
+            <p class="text-gray-500 text-sm leading-relaxed"><?= $step['desc'] ?></p>
+          </div>
+        <?php endforeach; ?>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">What We Migrate</p>
-      <h2 class="section-title">Microsoft 365 migration services built for the systems users touch every day.</h2>
-      <p class="section-copy">The work is not just about moving data. It is about preserving access, reducing confusion, and making the new environment easier to operate after launch.</p>
-    </div>
+<!-- ══════════════════════════════════════════════════════════════════
+     MIGRATION COST — split
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+      <div>
+        <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Pricing Transparency</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+          Microsoft 365 Migration Cost
+        </h2>
+        <p class="mt-4 text-gray-500 leading-relaxed">Transparent pricing to help you Plan Your Fees. System pricing parameters.</p>
 
-    <div class="section-grid-3">
-      <article class="panel-card card-lift panel-pad">
-        <span class="icon-chip"><i data-lucide="mail-check" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.55rem;">Email migration</h3>
-        <p class="muted" style="margin-top:0.75rem;">Mailbox moves, domain cutover planning, alias handling, and validation for lower communication risk.</p>
-      </article>
-      <article class="panel-card card-lift panel-pad">
-        <span class="icon-chip"><i data-lucide="folder-open" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.55rem;">Files and collaboration</h3>
-        <p class="muted" style="margin-top:0.75rem;">Google Drive, file shares, Teams, SharePoint, and OneDrive content migrated into the right structure.</p>
-      </article>
-      <article class="panel-card card-lift panel-pad">
-        <span class="icon-chip"><i data-lucide="key-round" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.55rem;">Identity and governance</h3>
-        <p class="muted" style="margin-top:0.75rem;">User identities, permissions, groups, security settings, and tenant controls aligned to the target state.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container split-grid">
-    <div class="copy-block">
-      <p class="section-kicker">Migration Execution</p>
-      <h2 class="section-title">Built for smoother cutover and less business interruption.</h2>
-      <p class="section-copy">We start with discovery, then shape the target tenant, map dependencies, validate migration waves, and support stabilization after go-live. That means fewer surprises for IT and less friction for end users.</p>
-      <div class="section-grid-2" style="margin-top:2rem;">
-        <div class="glass-card panel-pad">
-          <p class="text-xl font-semibold">Tenant cleanup</p>
-          <p class="muted" style="margin-top:0.6rem;">Reduce sprawl and design the new Microsoft 365 structure before content starts moving.</p>
+        <div class="mt-8 space-y-4">
+          <?php
+          $costFactors = [
+            ['title'=>'System of pricing ranges',    'desc'=>'We offer modular pricing options depending on size, complexity, and scope of the migration. Pricing depends on the scope of your migration needs.'],
+            ['title'=>'Transition to Ownership',     'desc'=>'All of our migrations are sized to ensure you are provided with the right level of support based on your organization size.'],
+            ['title'=>'Distribution packages migration projects', 'desc'=>'Our structured delivery packages are designed to cover the end-to-end migration lifecycle, from discovery to post-go-live support.'],
+          ];
+          foreach ($costFactors as $cf):
+          ?>
+            <div class="bg-gray-50 rounded-2xl p-5 border border-gray-200">
+              <h3 class="font-semibold text-gray-900 text-sm mb-1"><?= $cf['title'] ?></h3>
+              <p class="text-gray-500 text-sm leading-relaxed"><?= $cf['desc'] ?></p>
+            </div>
+          <?php endforeach; ?>
         </div>
-        <div class="glass-card panel-pad">
-          <p class="text-xl font-semibold">User readiness</p>
-          <p class="muted" style="margin-top:0.6rem;">Communication, onboarding, and support flows are built into the migration plan.</p>
+
+        <div class="mt-6">
+          <a href="contact"
+             class="inline-flex items-center gap-2 bg-blue-600 text-white font-bold px-6 py-3.5 rounded-xl shadow-md hover:bg-blue-700 transition-all text-sm">
+            Get a Project Review <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
         </div>
       </div>
-    </div>
-
-    <div class="panel-card panel-pad">
-      <div class="media-frame" style="height:320px;">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop" alt="Team preparing Microsoft 365 rollout and migration waves">
+      <div class="rounded-3xl overflow-hidden shadow-2xl">
+        <img src="https://images.unsplash.com/photo-1573496773905-f5b17e717f05?q=80&w=900&auto=format&fit=crop"
+             alt="Microsoft 365 migration cost planning"
+             class="w-full h-[440px] object-cover">
       </div>
     </div>
   </div>
 </section>
 
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">Our Migration Process</p>
-      <h2 class="section-title">A delivery model that makes Microsoft 365 migration easier to manage.</h2>
-      <p class="section-copy">Each phase is sequenced so technical dependencies, content structure, and user communications are handled together instead of as separate tracks.</p>
-    </div>
-
-    <div class="section-grid-4">
-      <article class="panel-card panel-pad card-lift">
-        <p class="section-kicker">01</p>
-        <h3 style="margin-top:1rem;font-size:1.45rem;">Assess</h3>
-        <p class="muted" style="margin-top:0.75rem;">Review source systems, licensing, domains, content volumes, and identity dependencies.</p>
-      </article>
-      <article class="panel-card panel-pad card-lift">
-        <p class="section-kicker">02</p>
-        <h3 style="margin-top:1rem;font-size:1.45rem;">Design</h3>
-        <p class="muted" style="margin-top:0.75rem;">Build the target tenant model, wave sequencing, and validation checkpoints.</p>
-      </article>
-      <article class="panel-card panel-pad card-lift">
-        <p class="section-kicker">03</p>
-        <h3 style="margin-top:1rem;font-size:1.45rem;">Migrate</h3>
-        <p class="muted" style="margin-top:0.75rem;">Run pilot moves and production migration waves for mail, files, Teams, and SharePoint.</p>
-      </article>
-      <article class="panel-card panel-pad card-lift">
-        <p class="section-kicker">04</p>
-        <h3 style="margin-top:1rem;font-size:1.45rem;">Stabilize</h3>
-        <p class="muted" style="margin-top:0.75rem;">Support the new environment, resolve issues, and guide users into the new workflow.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container split-grid">
-    <div class="panel-card panel-pad">
-      <p class="section-kicker">Microsoft 365 Migration Cost</p>
-      <h2 style="margin-top:0.9rem;font-size:2rem;line-height:1.1;">What affects scope and cost?</h2>
-      <div style="display:grid;gap:0.85rem;margin-top:1.5rem;">
-        <div class="glass-card panel-pad"><p class="text-xl font-semibold">Mailbox count</p><p class="muted" style="margin-top:0.45rem;">User volume, shared mailboxes, archives, and cutover windows affect complexity.</p></div>
-        <div class="glass-card panel-pad"><p class="text-xl font-semibold">File landscape</p><p class="muted" style="margin-top:0.45rem;">Drive structures, permissions, duplicates, and broken ownership usually shape migration effort.</p></div>
-        <div class="glass-card panel-pad"><p class="text-xl font-semibold">Identity setup</p><p class="muted" style="margin-top:0.45rem;">Domain alignment, SSO, group structure, and governance controls influence rollout work.</p></div>
+<!-- ══════════════════════════════════════════════════════════════════
+     WHY CHOOSE US
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+      <div class="rounded-3xl overflow-hidden shadow-xl">
+        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=900&auto=format&fit=crop"
+             alt="Why choose our Microsoft 365 migration service"
+             class="w-full h-[420px] object-cover">
       </div>
-    </div>
-
-    <div class="glass-card panel-pad">
-      <div class="media-frame" style="height:320px;">
-        <img src="https://images.unsplash.com/photo-1573496773905-f5b17e717f05?q=80&w=1200&auto=format&fit=crop" alt="Consultant discussing Microsoft 365 migration scope and planning">
-      </div>
-      <div class="inline-actions" style="margin-top:1.5rem;">
-        <a href="contact" class="button-primary">Get a project review <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">Why Organizations Choose Us</p>
-      <h2 class="section-title">More than just data movement.</h2>
-      <p class="section-copy">The strongest Microsoft 365 migrations combine technical execution with user transition planning, cleaner information architecture, and support after launch.</p>
-    </div>
-
-    <div class="section-grid-2">
-      <article class="glass-card panel-pad card-lift">
-        <span class="icon-chip"><i data-lucide="sparkles" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.5rem;">Better target-state design</h3>
-        <p class="muted" style="margin-top:0.7rem;">We help shape the Microsoft 365 environment users are actually moving into, not just the migration event itself.</p>
-      </article>
-      <article class="glass-card panel-pad card-lift">
-        <span class="icon-chip"><i data-lucide="badge-check" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.5rem;">Validation-first delivery</h3>
-        <p class="muted" style="margin-top:0.7rem;">Testing, pilot waves, permission checks, and stakeholder reviews reduce avoidable rollout issues.</p>
-      </article>
-      <article class="glass-card panel-pad card-lift">
-        <span class="icon-chip"><i data-lucide="messages-square" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.5rem;">Stronger communication</h3>
-        <p class="muted" style="margin-top:0.7rem;">Users know what is changing, when it is happening, and how to work in the new environment.</p>
-      </article>
-      <article class="glass-card panel-pad card-lift" style="background:linear-gradient(135deg,rgba(79,124,255,0.22),rgba(16,24,45,0.9));">
-        <span class="icon-chip"><i data-lucide="shield-check" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.5rem;">Post-go-live stability</h3>
-        <p class="muted" style="margin-top:0.7rem;color:#d6e0f7;">Support continues after migration so the tenant stabilizes quickly and users do not get left behind.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="page-section" style="padding-top:4.5rem;padding-bottom:4.5rem;">
-  <div class="site-container">
-    <div class="section-grid-2" style="align-items:center;">
-      <div class="panel-card panel-pad" style="background:linear-gradient(135deg,rgba(245, 209, 110, 0.16),rgba(14,20,37,0.96));">
-        <span class="icon-chip" style="background:rgba(245, 209, 110, 0.18);color:#f7d46f;"><i data-lucide="users-round" class="h-5 w-5"></i></span>
-        <h2 style="margin-top:1rem;font-size:2rem;line-height:1.1;">Built for IT teams and business leaders.</h2>
-        <p class="section-copy" style="margin-top:1rem;">The project plan needs to work for engineers, operations teams, and executives at the same time. That is why we structure migration work around visibility, ownership, and continuity.</p>
-      </div>
-      <div class="section-grid-2">
-        <div class="logo-pill">Google Workspace</div>
-        <div class="logo-pill">Office 365</div>
-        <div class="logo-pill">Azure AD</div>
-        <div class="logo-pill">Exchange Online</div>
-        <div class="logo-pill">SharePoint Online</div>
-        <div class="logo-pill">Microsoft Teams</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section tight">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">Frequently Asked Questions</p>
-      <h2 class="section-title">Questions we hear before a Microsoft 365 migration starts.</h2>
-    </div>
-    <div style="display:grid;gap:1rem;">
-      <article class="faq-item">
-        <h3 style="font-size:1.2rem;">Can you migrate from Google Workspace to Microsoft 365?</h3>
-        <p class="muted" style="margin-top:0.7rem;">Yes. We support mailbox, drive, and collaboration migrations from Google Workspace into the right Microsoft 365 structure.</p>
-      </article>
-      <article class="faq-item">
-        <h3 style="font-size:1.2rem;">Do you handle Teams, SharePoint, and OneDrive?</h3>
-        <p class="muted" style="margin-top:0.7rem;">Yes. We plan and migrate collaboration spaces, permissions, files, and information architecture across the Microsoft stack.</p>
-      </article>
-      <article class="faq-item">
-        <h3 style="font-size:1.2rem;">What happens after the migration is complete?</h3>
-        <p class="muted" style="margin-top:0.7rem;">We support stabilization, issue resolution, and user readiness so the new tenant becomes easier to manage after go-live.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="page-section tight">
-  <div class="site-container">
-    <div class="cta-banner">
-      <div class="cta-banner-grid">
-        <div class="cta-banner-copy">
-          <p class="section-kicker">Book Microsoft Migration Help</p>
-          <h2 class="section-title">Ready to start your Microsoft 365 project with a clearer plan?</h2>
-          <p class="section-copy">We can review the current environment, define the migration path, and help shape the right sequencing before execution begins.</p>
-        </div>
-        <div class="cta-banner-actions">
-          <a href="contact" class="button-primary">Request consultation <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+      <div>
+        <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Our Advantage</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight mb-4">
+          Why Organizations Choose Our Migration Service
+        </h2>
+        <div class="space-y-3">
+          <?php
+          $reasons = [
+            'Zero data loss guarantee with validation checkpoints',
+            'Minimal downtime with staged rollout planning',
+            'Full user communication and onboarding support',
+            'Side-by-side coexistence during transition',
+            'Post-migration stability and environment optimization',
+            'Expert delivery across the full Microsoft ecosystem',
+            'Experience deploying migrations with enterprise-level governance',
+          ];
+          foreach ($reasons as $r):
+          ?>
+            <div class="flex items-center gap-3 bg-white rounded-xl px-4 py-3 border border-gray-100 shadow-sm">
+              <i data-lucide="check-circle" class="w-5 h-5 text-blue-600 shrink-0"></i>
+              <span class="text-gray-700 text-sm"><?= $r ?></span>
+            </div>
+          <?php endforeach; ?>
         </div>
       </div>
     </div>
   </div>
 </section>
-<?php require __DIR__ . '/partials/layout-bottom.php';
+
+<!-- ══════════════════════════════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Common Questions</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">FAQ's About Microsoft 365 Migration Services</h2>
+    </div>
+    <div class="space-y-3">
+      <?php
+      $faqs = [
+        ['q'=>'How long does it take?',                    'a'=>'Timeline depends on user count, content volume, and source system complexity. Most migrations range from a few weeks to several months depending on scope.'],
+        ['q'=>'Can you migrate during business hours?',    'a'=>'Yes. We design migration waves to minimize impact during business hours, with cutover scheduled during low-activity windows.'],
+        ['q'=>'Do we need additional licenses to tenant?', 'a'=>'Licensing requirements depend on the source system and features in scope. We review this during the discovery phase.'],
+        ['q'=>'What does cost look like?',                 'a'=>'Costs are scoped based on user count, systems involved, and level of support needed. Contact us for a tailored estimate.'],
+      ];
+      foreach ($faqs as $faq):
+      ?>
+        <div class="faq-item border border-gray-200 rounded-2xl overflow-hidden">
+          <button class="faq-toggle w-full flex items-center justify-between px-6 py-5 text-left hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-gray-900 text-sm pr-4"><?= $faq['q'] ?></span>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-gray-400 shrink-0"></i>
+          </button>
+          <div class="faq-answer px-6 pb-5">
+            <p class="text-gray-500 text-sm leading-relaxed"><?= $faq['a'] ?></p>
+          </div>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     BUILT FOR IT TEAMS — highlight panel
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-amber-50 py-20 border-y border-amber-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+      <div>
+        <div class="w-14 h-14 bg-amber-200 rounded-2xl flex items-center justify-center mb-5">
+          <i data-lucide="users-round" class="w-7 h-7 text-amber-700"></i>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900 leading-tight mb-4">Built for IT Teams and Business Leaders</h2>
+        <p class="text-gray-600 leading-relaxed">
+          The project plan needs to work for engineers, operations teams, and executives at the same time. That is why we structure migration work around visibility, ownership, and continuity.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-3">
+        <?php
+        $itBenefits = [
+          'Office 365 business accounts','Microsoft Teams migration','SharePoint Online migration',
+          'Endpoint management with Intune','Dropbox to OneDrive migration','Identity &amp; Access Management',
+        ];
+        foreach ($itBenefits as $b):
+        ?>
+          <div class="bg-white border border-amber-200 rounded-xl px-4 py-3 shadow-sm flex items-center gap-2">
+            <i data-lucide="check" class="w-4 h-4 text-blue-600 shrink-0"></i>
+            <span class="text-sm font-medium text-gray-700"><?= $b ?></span>
+          </div>
+        <?php endforeach; ?>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     TRUSTED BRANDS
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-14 border-t border-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="text-center text-xs text-gray-400 uppercase tracking-widest font-semibold mb-8">Trusted By Leading Brands Around The World</p>
+    <div class="flex flex-wrap items-center justify-center gap-8 lg:gap-12">
+      <?php foreach(['Google','Adidas','Tele2','Facebook','Shopify','proxy','Capital','Disney'] as $b): ?>
+        <span class="text-gray-400 font-bold text-base tracking-tight hover:text-gray-600 transition-colors cursor-default"><?= $b ?></span>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     CTA
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gradient-to-br from-blue-800 via-blue-700 to-blue-500 py-20 text-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <p class="text-blue-200 text-xs uppercase tracking-widest font-semibold mb-3">Start Today</p>
+    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+      Start Your Microsoft 365 Migration Project
+    </h2>
+    <p class="mt-4 text-blue-100 leading-relaxed max-w-xl mx-auto">
+      Start with a migration team that plans carefully, executes cleanly, and keeps your users supported throughout.
+    </p>
+    <div class="mt-8">
+      <a href="contact"
+         class="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all text-sm">
+        Start Your Migration Today <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<?php require __DIR__ . '/partials/layout-bottom.php'; ?>

@@ -1,63 +1,554 @@
 <?php
 $page = [
-    'title' => 'IT Migration Services | Cloud, Microsoft 365 & M&A Migration',
+    'title'       => 'IT Migration Services | Cloud, Microsoft 365 & M&A Migration',
     'description' => 'IT migration services for Microsoft 365, cloud, data, and M&A transitions with planning, validation, and business continuity.',
-    'canonical' => 'https://itmigrationservices.com/',
-    'active' => 'home',
-    'body_class' => 'site-shell',
+    'canonical'   => 'https://itmigrationservices.com/',
+    'active'      => 'home',
 ];
 require __DIR__ . '/partials/layout-top.php';
 ?>
 
-<section class="hero-shell">
-  <div class="site-container home-hero-grid">
-    <div class="fade-up home-hero-copy">
-      <span class="eyebrow">
-        <i data-lucide="sparkles" class="h-4 w-4"></i>
-        IT Migration Services
-      </span>
-      <h1 class="hero-title">Move Your Business Without Breaking It</h1>
-      <p class="hero-copy">Your systems are not just servers and files. They run your operations, your revenue, and your customer experience.</p>
-      <p class="hero-copy" style="margin-top:0.9rem;">When you migrate, everything is at risk.</p>
+<!-- ══════════════════════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gradient-to-br from-blue-800 via-blue-700 to-blue-500 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
 
-      <div class="home-hero-metrics" style="grid-template-columns:repeat(2,minmax(0,1fr));">
-        <div class="home-metric-card">
-          <p class="home-metric-value">Downtime</p>
-        </div>
-        <div class="home-metric-card">
-          <p class="home-metric-value">Data loss</p>
-        </div>
-        <div class="home-metric-card">
-          <p class="home-metric-value">Security exposure</p>
-        </div>
-        <div class="home-metric-card">
-          <p class="home-metric-value">User disruption</p>
+      <!-- Copy -->
+      <div>
+        <span class="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white/90 text-xs font-semibold px-4 py-2 rounded-full mb-6 backdrop-blur-sm">
+          <i data-lucide="shield-check" class="w-4 h-4"></i>
+          Migration Services Built for Continuity
+        </span>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+          IT Migration Services Built for Secure Growth and Minimal Downtime
+        </h1>
+        <p class="mt-6 text-blue-100 text-lg leading-relaxed max-w-xl">
+          Whether you are moving from on-premises infrastructure, consolidating after acquisition, or executing a full cloud migration strategy, we handle the entire journey end to end.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="contact"
+             class="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all text-sm">
+            Request an IT Migration Assessment
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+          <a href="how-it-works"
+             class="inline-flex items-center gap-2 bg-white/10 border border-white/25 text-white font-semibold px-6 py-3.5 rounded-xl hover:bg-white/20 transition-all text-sm backdrop-blur-sm">
+            Explore Our Process
+          </a>
         </div>
       </div>
 
-      <div class="hero-actions">
-        <a href="contact" class="button-primary">
-          Get Your IT Migration Assessment
-          <i data-lucide="arrow-right" class="h-4 w-4"></i>
+      <!-- Dashboard card -->
+      <div class="animate-float">
+        <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-5 shadow-2xl">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <p class="text-xs text-blue-200 uppercase tracking-widest font-semibold">Migration Control Center</p>
+              <h2 class="text-lg font-bold text-white mt-0.5">A migration dashboard your team can trust</h2>
+            </div>
+            <span class="bg-green-400/20 border border-green-400/40 text-green-300 text-xs font-semibold px-2.5 py-1 rounded-full">Live</span>
+          </div>
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=900&auto=format&fit=crop"
+               alt="IT migration dashboard"
+               class="w-full h-52 object-cover rounded-2xl">
+          <div class="grid grid-cols-2 gap-3 mt-4">
+            <div class="bg-white/10 rounded-2xl p-4">
+              <div class="flex items-center gap-2 mb-2">
+                <div class="w-7 h-7 bg-blue-400/30 rounded-lg flex items-center justify-center">
+                  <i data-lucide="server" class="w-3.5 h-3.5 text-blue-200"></i>
+                </div>
+                <span class="text-xs text-blue-200 font-semibold">Infrastructure</span>
+              </div>
+              <p class="text-xs text-white/70">Move workloads with clear dependencies and staged rollout.</p>
+            </div>
+            <div class="bg-blue-600/40 rounded-2xl p-4 border border-blue-400/30">
+              <div class="flex items-center gap-2 mb-2">
+                <div class="w-7 h-7 bg-blue-300/30 rounded-lg flex items-center justify-center">
+                  <i data-lucide="shield" class="w-3.5 h-3.5 text-blue-200"></i>
+                </div>
+                <span class="text-xs text-blue-200 font-semibold">Security</span>
+              </div>
+              <p class="text-xs text-white/70">Governance, identity, and access controls aligned from day one.</p>
+            </div>
+            <div class="bg-white/10 rounded-2xl p-4">
+              <div class="flex items-center gap-2 mb-2">
+                <div class="w-7 h-7 bg-blue-400/30 rounded-lg flex items-center justify-center">
+                  <i data-lucide="users" class="w-3.5 h-3.5 text-blue-200"></i>
+                </div>
+                <span class="text-xs text-blue-200 font-semibold">Users</span>
+              </div>
+              <p class="text-xs text-white/70">Minimize confusion with communication, onboarding, and support.</p>
+            </div>
+            <div class="bg-white/10 rounded-2xl p-4">
+              <div class="flex items-center gap-2 mb-2">
+                <div class="w-7 h-7 bg-blue-400/30 rounded-lg flex items-center justify-center">
+                  <i data-lucide="database" class="w-3.5 h-3.5 text-blue-200"></i>
+                </div>
+                <span class="text-xs text-blue-200 font-semibold">Data</span>
+              </div>
+              <p class="text-xs text-white/70">Files, permissions, and business content preserved with validation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     LOGO BAR
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white border-b border-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <p class="text-center text-xs text-gray-400 uppercase tracking-widest font-semibold mb-6">Trusted by teams at leading organizations</p>
+    <div class="flex flex-wrap items-center justify-center gap-8 lg:gap-14">
+      <?php
+      $brands = ['Google','FedEx','Skype','Slack','Payoneer','Shopify'];
+      foreach ($brands as $b):
+      ?>
+        <span class="text-gray-400 font-bold text-lg tracking-tight hover:text-gray-600 transition-colors cursor-default"><?= $b ?></span>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     EXPLORE OUR SERVICES — dark section
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-900 text-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <p class="text-blue-400 text-xs uppercase tracking-widest font-semibold mb-3">What We Offer</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Explore Our IT Migration Services</h2>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <?php
+      $services = [
+        ['icon'=>'layout-grid',  'label'=>'Microsoft 365 Migration Services', 'href'=>'microsoft-365',          'desc'=>'Email, Teams, SharePoint, OneDrive, and identity migration with structured planning.'],
+        ['icon'=>'handshake',    'label'=>'M&A IT Migration Services',        'href'=>'mergers-and-acquisition', 'desc'=>'Tenant consolidation, identity alignment, and post-merger integration at scale.'],
+        ['icon'=>'cloud',        'label'=>'Cloud Migration Services',         'href'=>'contact',                 'desc'=>'Move workloads to Azure, AWS, or Google Cloud with validated sequencing.'],
+        ['icon'=>'database',     'label'=>'Data Migration Services',          'href'=>'contact',                 'desc'=>'Structured data migration with validation, compliance, and zero data loss.'],
+        ['icon'=>'app-window',   'label'=>'Application Migration Services',   'href'=>'contact',                 'desc'=>'Re-host, re-platform, or modernize applications with business continuity.'],
+        ['icon'=>'shield-check', 'label'=>'Identity & Security Migration',    'href'=>'contact',                 'desc'=>'Domain, SSO, permissions, and governance controls realigned to target state.'],
+      ];
+      foreach ($services as $s):
+      ?>
+        <a href="<?= $s['href'] ?>"
+           class="group bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:bg-gray-750 hover:border-blue-500/50 hover:-translate-y-1 transition-all">
+          <div class="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-600/30 transition-colors">
+            <i data-lucide="<?= $s['icon'] ?>" class="w-6 h-6 text-blue-400"></i>
+          </div>
+          <h3 class="font-bold text-white text-base leading-snug mb-2"><?= $s['label'] ?></h3>
+          <p class="text-gray-400 text-sm leading-relaxed"><?= $s['desc'] ?></p>
+          <div class="mt-4 flex items-center gap-1 text-blue-400 text-xs font-semibold group-hover:gap-2 transition-all">
+            Learn more <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </div>
         </a>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     END TO END — split section
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+      <!-- Copy -->
+      <div>
+        <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Full-Lifecycle Coverage</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+          End to End IT Migration Services That Reduce Risk and Drive Innovation
+        </h2>
+        <p class="mt-4 text-gray-500 leading-relaxed">
+          We don't just move systems. We reduce risk, map dependencies, preserve access, and adapt as the migration becomes a controlled transition instead of an operational shock.
+        </p>
+        <div class="mt-8 space-y-3">
+          <?php
+          $features = [
+            ['icon'=>'layout-grid', 'title'=>'Microsoft Azure',         'desc'=>'Full cloud migration strategy and execution on Microsoft Azure with compliance and uptime built in.'],
+            ['icon'=>'server',      'title'=>'Secure Old Servers',      'desc'=>'Decommission legacy Windows Server environments without disrupting dependent applications.'],
+            ['icon'=>'cloud',       'title'=>'Google Cloud Platform',   'desc'=>'Migrate workloads, data, and applications into GCP with validated cutover planning.'],
+            ['icon'=>'database',    'title'=>'IBM Cloud',               'desc'=>'Enterprise-grade IBM Cloud migration with performance validation and post-migration support.'],
+          ];
+          foreach ($features as $f):
+          ?>
+            <div class="flex items-start gap-4 bg-gray-50 rounded-xl p-4 hover:bg-blue-50 transition-colors">
+              <div class="w-10 h-10 bg-blue-100 rounded-xl flex items-center justify-center shrink-0">
+                <i data-lucide="<?= $f['icon'] ?>" class="w-5 h-5 text-blue-600"></i>
+              </div>
+              <div>
+                <p class="font-semibold text-gray-900 text-sm"><?= $f['title'] ?></p>
+                <p class="text-gray-500 text-sm mt-0.5 leading-relaxed"><?= $f['desc'] ?></p>
+              </div>
+            </div>
+          <?php endforeach; ?>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div class="relative">
+        <div class="rounded-3xl overflow-hidden shadow-2xl">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=900&auto=format&fit=crop"
+               alt="IT migration planning team"
+               class="w-full h-[480px] object-cover">
+        </div>
+        <div class="absolute -bottom-6 -left-6 bg-blue-600 text-white rounded-2xl px-6 py-4 shadow-xl">
+          <p class="text-3xl font-black">10k+</p>
+          <p class="text-blue-200 text-xs mt-0.5">Accounts migrated</p>
+        </div>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="fade-up delay-1">
-      <div class="home-signal-board float-soft">
-        <div class="home-board-top">
-          <div class="home-board-head">
-            <p class="section-kicker">We deliver IT Migration Services built for one outcome</p>
-            <h2 class="home-board-title">A seamless transition with minimal downtime, zero data loss, and full business continuity</h2>
+<!-- ══════════════════════════════════════════════════════════════════
+     SERVICES + ILLUSTRATION — split section
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+      <!-- Image -->
+      <div class="relative">
+        <div class="rounded-3xl overflow-hidden shadow-xl">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=900&auto=format&fit=crop"
+               alt="Cloud migration infrastructure"
+               class="w-full h-[420px] object-cover">
+        </div>
+      </div>
+
+      <!-- Copy -->
+      <div>
+        <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">IT Migration Services Built Around Real Business Needs</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+          Cloud migration that fits your business, not a vendor template
+        </h2>
+        <p class="mt-4 text-gray-500 leading-relaxed">Our cloud migration project managers help organizations navigate the full migration life cycle with structured planning and risk reduction.</p>
+
+        <div class="mt-8 space-y-3">
+          <?php
+          $caps = [
+            ['icon'=>'server',         'label'=>'Migrate Windows Server Workloads to Cloud Services'],
+            ['icon'=>'building-2',     'label'=>'Consolidate Premises Data Centers Into Public or Private Cloud'],
+            ['icon'=>'bar-chart-2',    'label'=>'Data Warehouse Migration and Data Lake Optimization'],
+            ['icon'=>'app-window',     'label'=>'Application Modernization and Infrastructure Optimization'],
+          ];
+          foreach ($caps as $c):
+          ?>
+            <div class="flex items-center gap-3 bg-white rounded-xl px-4 py-3 shadow-sm border border-gray-100 hover:border-blue-200 hover:shadow-md transition-all">
+              <div class="w-8 h-8 bg-blue-50 rounded-lg flex items-center justify-center shrink-0">
+                <i data-lucide="<?= $c['icon'] ?>" class="w-4 h-4 text-blue-600"></i>
+              </div>
+              <p class="text-sm font-medium text-gray-700"><?= $c['label'] ?></p>
+            </div>
+          <?php endforeach; ?>
+        </div>
+
+        <div class="mt-8">
+          <a href="contact"
+             class="inline-flex items-center gap-2 bg-blue-600 text-white font-bold px-6 py-3.5 rounded-xl shadow-md hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all text-sm">
+            Explore More
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     CLOUD MIGRATION PROCESS
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">How We Work</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Cloud Migration Process</h2>
+      <p class="mt-4 text-gray-500">A proven migration framework for reducing surprises, coordinating teams, and moving systems with more confidence.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <?php
+      $steps = [
+        ['n'=>'1','title'=>'Cloud Migration Strategy And Planning',      'desc'=>'We evaluate existing infrastructure, define cloud readiness, and design a migration roadmap aligned to your business goals and timeline.'],
+        ['n'=>'2','title'=>'Architecture And Readiness Assessment',       'desc'=>'We audit technical dependencies, workload configurations, security controls, and compliance requirements before any migration moves begin.'],
+        ['n'=>'3','title'=>'Migration Execution And Data Transfer',       'desc'=>'Controlled migration waves with validation checkpoints ensure your data, applications, and workloads move without disruption.'],
+        ['n'=>'4','title'=>'Validation And Knowledge Transfer',           'desc'=>'We verify every migrated system performs correctly and equip your internal teams with the documentation and training to operate confidently.'],
+        ['n'=>'5','title'=>'Ongoing Managed Services And Optimization',   'desc'=>'Post-migration support covers performance tuning, cost optimization, and cloud governance as your environment stabilizes and scales.'],
+        ['n'=>'6','title'=>'Governance, Security, And Business Continuity Assurance', 'desc'=>'End-to-end compliance, access controls, and disaster recovery are built into the migration plan from the start.'],
+      ];
+      foreach ($steps as $step):
+      ?>
+        <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6 hover:border-blue-300 hover:shadow-md transition-all">
+          <div class="w-10 h-10 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black text-sm mb-4">
+            <?= $step['n'] ?>
+          </div>
+          <h3 class="font-bold text-gray-900 text-base mb-2"><?= $step['title'] ?></h3>
+          <p class="text-gray-500 text-sm leading-relaxed"><?= $step['desc'] ?></p>
+        </div>
+      <?php endforeach; ?>
+    </div>
+
+    <div class="text-center mt-10">
+      <a href="contact"
+         class="inline-flex items-center gap-2 bg-blue-600 text-white font-bold px-6 py-3.5 rounded-xl shadow-md hover:bg-blue-700 transition-all text-sm">
+        Talk to a Migration Expert
+        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     PLATFORMS WE SUPPORT
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Multi-Cloud Expertise</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Platforms We Support &amp; Cloud Ecosystem</h2>
+      <p class="mt-4 text-gray-500">Cloud Migration Services Across Leading Cloud Providers</p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+      <!-- Platforms list -->
+      <div class="space-y-4">
+        <?php
+        $platforms = [
+          ['name'=>'Microsoft Azure',     'pct'=>92, 'color'=>'bg-blue-500'],
+          ['name'=>'Mobile Web Services', 'pct'=>84, 'color'=>'bg-orange-400'],
+          ['name'=>'Google Cloud Platform','pct'=>78, 'color'=>'bg-yellow-400'],
+          ['name'=>'IBM Cloud',           'pct'=>67, 'color'=>'bg-blue-900'],
+        ];
+        foreach ($platforms as $p):
+        ?>
+          <div class="bg-white rounded-2xl p-5 border border-gray-200 shadow-sm">
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-gray-100 rounded-xl flex items-center justify-center">
+                  <i data-lucide="cloud" class="w-4 h-4 text-gray-500"></i>
+                </div>
+                <span class="font-semibold text-gray-800 text-sm"><?= $p['name'] ?></span>
+              </div>
+              <span class="text-blue-600 font-bold text-sm"><?= $p['pct'] ?>%</span>
+            </div>
+            <div class="h-2 bg-gray-100 rounded-full overflow-hidden">
+              <div class="h-full <?= $p['color'] ?> rounded-full" style="width:<?= $p['pct'] ?>%"></div>
+            </div>
+          </div>
+        <?php endforeach; ?>
+      </div>
+
+      <!-- Stats -->
+      <div class="relative">
+        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=900&auto=format&fit=crop"
+             alt="Cloud infrastructure"
+             class="w-full h-72 object-cover rounded-3xl shadow-xl mb-6">
+        <div class="grid grid-cols-3 gap-4">
+          <div class="bg-white rounded-2xl p-4 text-center border border-gray-100 shadow-sm">
+            <p class="text-2xl font-black text-blue-600">30+</p>
+            <p class="text-xs text-gray-500 mt-1">Migration programs</p>
+          </div>
+          <div class="bg-white rounded-2xl p-4 text-center border border-gray-100 shadow-sm">
+            <p class="text-2xl font-black text-blue-600">10k+</p>
+            <p class="text-xs text-gray-500 mt-1">Accounts transitioned</p>
+          </div>
+          <div class="bg-blue-600 rounded-2xl p-4 text-center shadow-md">
+            <p class="text-2xl font-black text-white">Zero</p>
+            <p class="text-xs text-blue-200 mt-1">Guesswork</p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <div class="home-board-feature">
-          <div class="media-frame home-board-media">
-            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop" alt="IT migration services">
+<!-- ══════════════════════════════════════════════════════════════════
+     CASE STUDY
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Real Results</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Case Study</h2>
+      <p class="mt-4 text-gray-500">A simple view of how a better plan turns migration into a controlled business project.</p>
+    </div>
+
+    <div class="bg-gray-50 border border-gray-200 rounded-3xl overflow-hidden shadow-lg">
+      <div class="grid lg:grid-cols-3 gap-0">
+        <div class="lg:col-span-2 p-8 lg:p-10">
+          <div class="flex items-center justify-between mb-6">
+            <div>
+              <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-1">Scenario</p>
+              <h3 class="text-2xl font-extrabold text-gray-900">Multi-region infrastructure and collaboration migration</h3>
+            </div>
+            <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1.5 rounded-full border border-green-200 shrink-0 ml-4">Completed</span>
           </div>
-          <div class="home-board-story">
-            <p class="muted">Whether you are moving from on premises infrastructure, consolidating environments after acquisition, or executing a full cloud migration strategy, we handle the entire cloud migration journey end to end.</p>
+          <p class="text-gray-600 leading-relaxed mb-6">
+            The client needed to migrate users, file stores, and productivity systems while preserving access and minimizing operational disruption across three regions.
+          </p>
+          <div class="grid grid-cols-3 gap-4 mb-8">
+            <div class="bg-white rounded-xl p-4 text-center border border-gray-200">
+              <p class="text-3xl font-black text-blue-600">3</p>
+              <p class="text-xs text-gray-500 mt-1">Migration waves</p>
+            </div>
+            <div class="bg-white rounded-xl p-4 text-center border border-gray-200">
+              <p class="text-3xl font-black text-green-600">0</p>
+              <p class="text-xs text-gray-500 mt-1">Critical outages</p>
+            </div>
+            <div class="bg-white rounded-xl p-4 text-center border border-gray-200">
+              <p class="text-3xl font-black text-blue-600">100%</p>
+              <p class="text-xs text-gray-500 mt-1">Validation coverage</p>
+            </div>
+          </div>
+          <div class="grid sm:grid-cols-4 gap-3">
+            <?php
+            $phases = [
+              ['icon'=>'search',       'title'=>'Discovery',    'desc'=>'Audited systems, stakeholders, and sequencing.'],
+              ['icon'=>'pencil-ruler', 'title'=>'Planning',     'desc'=>'Migration model shaped around business continuity.'],
+              ['icon'=>'play-circle',  'title'=>'Execution',    'desc'=>'Migration waves with monitoring and validation.'],
+              ['icon'=>'settings',     'title'=>'Optimization', 'desc'=>'Post-cutover support to validate the platform.'],
+            ];
+            foreach ($phases as $ph):
+            ?>
+              <div class="bg-white rounded-xl p-3 border border-gray-200 text-center">
+                <div class="w-8 h-8 bg-blue-50 rounded-lg flex items-center justify-center mx-auto mb-2">
+                  <i data-lucide="<?= $ph['icon'] ?>" class="w-4 h-4 text-blue-600"></i>
+                </div>
+                <p class="text-xs font-bold text-gray-800"><?= $ph['title'] ?></p>
+                <p class="text-xs text-gray-500 mt-1 leading-tight"><?= $ph['desc'] ?></p>
+              </div>
+            <?php endforeach; ?>
+          </div>
+        </div>
+        <div class="bg-blue-600 p-8 lg:p-10 flex flex-col justify-center text-white">
+          <p class="text-blue-200 text-xs uppercase tracking-widest font-semibold mb-4">Client Outcome</p>
+          <div class="space-y-4">
+            <?php
+            $outcomes = [
+              'Tiny cloud migration project executed with real-time monitoring, structured analytics, and clear governance for all transitions.',
+              'Fury IT migration services are designed for organizations that cannot afford downtime, data risk, or operational disruption.',
+            ];
+            foreach ($outcomes as $o):
+            ?>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 shrink-0 mt-0.5"></i>
+                <p class="text-blue-100 text-sm leading-relaxed"><?= $o ?></p>
+              </div>
+            <?php endforeach; ?>
+          </div>
+          <a href="contact"
+             class="mt-8 inline-flex items-center justify-center gap-2 bg-white text-blue-700 font-bold px-5 py-3 rounded-xl text-sm hover:bg-blue-50 transition-colors">
+            Start Your Project <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     STATS / WHY CHOOSE US
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid sm:grid-cols-3 gap-8">
+      <?php
+      $stats = [
+        ['icon'=>'clock',       'color'=>'bg-blue-100 text-blue-600',   'title'=>'Minimal Downtime Execution',       'desc'=>'Your operations stay live. We execute migrations with precision sequencing and live monitoring so disruption stays minimal throughout.'],
+        ['icon'=>'briefcase',   'color'=>'bg-purple-100 text-purple-600','title'=>'Business Continuity First',         'desc'=>'Migration is not a technical task — it is a business decision. We protect your workflows, revenue, and customer experience at every stage.'],
+        ['icon'=>'shield-check','color'=>'bg-green-100 text-green-600',  'title'=>'Security and Compliance Built In',  'desc'=>'Governance, identity controls, and compliance checkpoints are designed into the migration plan, not added as an afterthought.'],
+      ];
+      foreach ($stats as $s):
+      ?>
+        <div class="text-center px-4">
+          <div class="w-16 h-16 <?= $s['color'] ?> rounded-2xl flex items-center justify-center mx-auto mb-5">
+            <i data-lucide="<?= $s['icon'] ?>" class="w-8 h-8"></i>
+          </div>
+          <h3 class="font-bold text-gray-900 text-lg mb-3"><?= $s['title'] ?></h3>
+          <p class="text-gray-500 text-sm leading-relaxed"><?= $s['desc'] ?></p>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Got Questions?</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Frequently Asked Questions</h2>
+      <p class="mt-4 text-gray-500">Answers to the migration questions we hear most often from IT leaders and operations teams.</p>
+    </div>
+
+    <div class="space-y-3">
+      <?php
+      $faqs = [
+        ['q'=>'What types of migration do you support?',
+         'a'=>'We support Microsoft 365 migration, M&A integration, cloud migration, data migration, infrastructure modernization, and identity transition work.'],
+        ['q'=>'How do you reduce migration risk?',
+         'a'=>'Through discovery, dependency mapping, pilot execution, validation checkpoints, communication planning, and structured cutover support.'],
+        ['q'=>'Can you help after the migration is complete?',
+         'a'=>'Yes. We support post-migration stabilization, user onboarding, issue resolution, and environment optimization after go-live.'],
+        ['q'=>'How long does a typical cloud migration take?',
+         'a'=>'Timeline depends on scope, system complexity, and user count. We provide a detailed migration schedule during the assessment phase.'],
+      ];
+      foreach ($faqs as $i => $faq):
+      ?>
+        <div class="faq-item border border-gray-200 rounded-2xl overflow-hidden">
+          <button class="faq-toggle w-full flex items-center justify-between px-6 py-5 text-left hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-gray-900 text-sm pr-4"><?= $faq['q'] ?></span>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-gray-400 shrink-0"></i>
+          </button>
+          <div class="faq-answer px-6 pb-5">
+            <p class="text-gray-500 text-sm leading-relaxed"><?= $faq['a'] ?></p>
+          </div>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     CTA BANNER
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gradient-to-br from-blue-800 via-blue-700 to-blue-500 py-20 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <p class="text-blue-200 text-xs uppercase tracking-widest font-semibold mb-3">Start Today</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+          Ready To Start Your Cloud Migration Journey?
+        </h2>
+        <p class="mt-4 text-blue-100 leading-relaxed">
+          Start with a migration team that plans carefully, executes cleanly, and keeps your users supported throughout the entire transition.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="contact"
+             class="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all text-sm">
+            Request an IT Migration Assessment
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hidden lg:flex items-center justify-center">
+        <div class="relative">
+          <img src="https://images.unsplash.com/photo-1573496773905-f5b17e717f05?q=80&w=700&auto=format&fit=crop"
+               alt="Migration specialist"
+               class="w-80 h-72 object-cover rounded-3xl shadow-2xl opacity-80">
+          <div class="absolute -top-4 -right-4 bg-white text-blue-700 rounded-2xl px-5 py-3 shadow-xl">
+            <p class="font-black text-xl">PB-scale</p>
+            <p class="text-xs text-gray-500 mt-0.5">File &amp; content migration</p>
           </div>
         </div>
       </div>
@@ -65,219 +556,4 @@ require __DIR__ . '/partials/layout-top.php';
   </div>
 </section>
 
-<section class="page-section tight">
-  <div class="site-container">
-    <div class="logo-row">
-      <div class="logo-pill">Google</div>
-      <div class="logo-pill">PayPal</div>
-      <div class="logo-pill">eBay</div>
-      <div class="logo-pill">Airbnb</div>
-      <div class="logo-pill">Netflix</div>
-      <div class="logo-pill">Walmart</div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container split-grid">
-    <div class="copy-block">
-      <p class="section-kicker">Why Companies Are Forced to Migrate</p>
-      <h2 class="section-title">You are not here by accident. Something pushed this decision.</h2>
-    </div>
-    <div style="display:grid;gap:0.9rem;">
-      <div class="glass-card panel-pad"><p class="muted">Your IT infrastructure is outdated</p></div>
-      <div class="glass-card panel-pad"><p class="muted">Your infrastructure costs are rising</p></div>
-      <div class="glass-card panel-pad"><p class="muted">You are dealing with legacy systems like Windows Server</p></div>
-      <div class="glass-card panel-pad"><p class="muted">Your business needs demand scalability and flexibility</p></div>
-      <div class="glass-card panel-pad"><p class="muted">You are undergoing digital transformation</p></div>
-      <div class="glass-card panel-pad"><p class="muted">You are moving away from premises data centers</p></div>
-      <div class="glass-card panel-pad"><p class="muted">You need better security and compliance</p></div>
-      <div class="glass-card panel-pad"><p class="muted">Or you are simply trying to align technology with business goals.</p></div>
-      <div class="glass-card panel-pad"><p class="muted">Migration is no longer optional. It is the next step.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">What We Migrate</p>
-      <h2 class="section-title">We cover the full spectrum of IT migration services, not just one piece of the puzzle.</h2>
-    </div>
-
-    <div class="section-grid-3">
-      <a href="microsoft-365" class="glass-card panel-pad card-lift" style="text-decoration:none;"><h3 style="font-size:1.3rem;">Microsoft 365 Migration</h3></a>
-      <a href="contact" class="glass-card panel-pad card-lift" style="text-decoration:none;"><h3 style="font-size:1.3rem;">Infrastructure Migration</h3></a>
-      <a href="contact" class="glass-card panel-pad card-lift" style="text-decoration:none;"><h3 style="font-size:1.3rem;">Cloud Migration Services</h3></a>
-      <a href="contact" class="glass-card panel-pad card-lift" style="text-decoration:none;"><h3 style="font-size:1.3rem;">Data Migration Services</h3></a>
-      <a href="contact" class="glass-card panel-pad card-lift" style="text-decoration:none;"><h3 style="font-size:1.3rem;">Application Modernization</h3></a>
-      <a href="contact" class="glass-card panel-pad card-lift" style="text-decoration:none;"><h3 style="font-size:1.3rem;">Workload Migration</h3></a>
-      <a href="contact" class="glass-card panel-pad card-lift" style="text-decoration:none;"><h3 style="font-size:1.3rem;">Hybrid and Multi Cloud Environments</h3></a>
-    </div>
-
-    <div class="inline-actions" style="justify-content:center;margin-top:2rem;">
-      <a href="contact" class="button-primary">Start Your Migration Plan <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container split-grid">
-    <div class="copy-block">
-      <p class="section-kicker">Built Around Your Business Needs</p>
-      <h2 class="section-title">Most providers push tools.</h2>
-      <p class="section-copy">We align migration to your business needs.</p>
-      <p class="section-copy" style="margin-top:0.9rem;">Every cloud migration project is built around:</p>
-      <div style="display:grid;gap:0.9rem;margin-top:1.5rem;">
-        <div class="glass-card panel-pad"><p class="muted">Your IT needs</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Your business goals</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Your compliance requirements</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Your user experience expectations</p></div>
-      </div>
-      <p class="section-copy" style="margin-top:1.5rem;">Because migration is not a technical task. It is a business decision.</p>
-    </div>
-    <div class="panel-card panel-pad">
-      <div class="media-frame" style="height:320px;">
-        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop" alt="Business needs and migration planning">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">Our IT Migration Process</p>
-      <h2 class="section-title">This is where most migrations fail. We don’t.</h2>
-    </div>
-
-    <div class="section-grid-3">
-      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">1. Discovery and Assessment</h3><p class="muted" style="margin-top:0.7rem;">We evaluate your current IT infrastructure, workloads, dependencies, and risks</p></article>
-      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">2. Cloud Migration Strategy</h3><p class="muted" style="margin-top:0.7rem;">We design a tailored cloud migration strategy aligned to your cloud journey and business outcomes</p></article>
-      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">3. Planning and Architecture</h3><p class="muted" style="margin-top:0.7rem;">We map out the migration life cycle including timelines, workload migration paths, and cost optimization strategies</p></article>
-      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">4. Pilot and Validation</h3><p class="muted" style="margin-top:0.7rem;">We test with controlled environments to ensure a smooth transition and validate real time performance</p></article>
-      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">5. Migration Execution</h3><p class="muted" style="margin-top:0.7rem;">We execute full scale migration with minimal downtime and zero disruption to business continuity</p></article>
-      <article class="panel-card panel-pad card-lift"><h3 class="section-kicker">6. Post Migration Support</h3><p class="muted" style="margin-top:0.7rem;">We provide migration support, optimization, and knowledge transfer to your internal teams</p></article>
-    </div>
-
-    <div class="inline-actions" style="justify-content:center;margin-top:2rem;">
-      <a href="contact" class="button-primary">Evaluate My Migration Risks <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <h2 class="section-kicker">What Makes Us Different</h2>
-    </div>
-    <div class="section-grid-3">
-      <article class="glass-card panel-pad card-lift"><h3 style="font-size:1.3rem;">Minimal Downtime Execution</h3><p class="muted" style="margin-top:0.55rem;">Your operations stay live. No unnecessary disruption.</p></article>
-      <article class="glass-card panel-pad card-lift"><h3 style="font-size:1.3rem;">Business Continuity First</h3><p class="muted" style="margin-top:0.55rem;">We protect your workflows, not just your data.</p></article>
-      <article class="glass-card panel-pad card-lift"><h3 style="font-size:1.3rem;">Cloud Experts Across Platforms</h3><p class="muted" style="margin-top:0.55rem;">We work across Microsoft Azure, Amazon Web Services, Google Cloud Platform, and IBM Cloud</p></article>
-      <article class="glass-card panel-pad card-lift"><h3 style="font-size:1.3rem;">Cost Optimization Built In</h3><p class="muted" style="margin-top:0.55rem;">We reduce infrastructure costs while improving performance</p></article>
-      <article class="glass-card panel-pad card-lift"><h3 style="font-size:1.3rem;">Real Time Monitoring</h3><p class="muted" style="margin-top:0.55rem;">We track every stage of the migration in real time to ensure a successful migration</p></article>
-      <article class="glass-card panel-pad card-lift"><h3 style="font-size:1.3rem;">Professional Services Approach</h3><p class="muted" style="margin-top:0.55rem;">This is not just technical delivery. This is structured, accountable Professional Services with measurable outcomes</p></article>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container split-grid">
-    <div class="copy-block">
-      <p class="section-kicker">Migration Cases We Handle</p>
-      <h2 class="section-title">Migration is not one size fits all. These are the real scenarios we solve:</h2>
-      <div style="display:grid;gap:0.9rem;margin-top:1.7rem;">
-        <div class="glass-card panel-pad"><p class="muted">Moving from premises data centers to public cloud</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Consolidating environments after mergers and acquisitions</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Migrating legacy Windows Server environments</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Transitioning to modern cloud services</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Optimizing infrastructure costs through cloud computing</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Executing large scale data migration services</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Enabling digital transformation initiatives</p></div>
-      </div>
-    </div>
-
-    <div class="panel-card panel-pad">
-      <h2 class="section-kicker">Case Study</h2>
-      <p class="section-copy" style="margin-top:1rem;">A financial services organization needed to migrate legacy infrastructure to Microsoft Azure while maintaining strict compliance and uptime requirements.</p>
-      <p class="section-copy" style="margin-top:1rem;">We executed a full infrastructure migration and data migration services plan with:</p>
-      <div style="display:grid;gap:0.85rem;margin-top:1.3rem;">
-        <div class="glass-card panel-pad"><p class="muted">Zero data loss</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Minimal downtime</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Improved operational efficiencies</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Reduced infrastructure costs</p></div>
-        <div class="glass-card panel-pad"><p class="muted">Enhanced customer experience</p></div>
-      </div>
-      <p class="section-copy" style="margin-top:1rem;">This is what a successful migration looks like.</p>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">The Risk of Getting This Wrong</p>
-      <h2 class="section-title">Let’s be direct.</h2>
-      <p class="section-copy">Bad migrations cost more than doing it right the first time.</p>
-    </div>
-    <div class="section-grid-3">
-      <article class="panel-card panel-pad"><p class="muted">Data loss</p></article>
-      <article class="panel-card panel-pad"><p class="muted">Downtime</p></article>
-      <article class="panel-card panel-pad"><p class="muted">Broken systems</p></article>
-      <article class="panel-card panel-pad"><p class="muted">Security vulnerabilities</p></article>
-      <article class="panel-card panel-pad"><p class="muted">Failed compliance audits</p></article>
-      <article class="panel-card panel-pad"><p class="muted">Destroyed user experience</p></article>
-    </div>
-    <div class="section-head" style="margin-top:2rem;">
-      <p class="section-copy">You don’t get a second chance at migration.</p>
-    </div>
-  </div>
-</section>
-
-<section class="page-section tight">
-  <div class="site-container">
-    <div class="cta-banner">
-      <div class="cta-banner-grid">
-        <div class="cta-banner-copy">
-          <p class="section-kicker">Start Your Cloud Migration Journey</p>
-          <h2 class="section-title">If you are planning a cloud migration project, consolidating systems, or modernizing your IT infrastructure, this is your moment.</h2>
-          <p class="section-copy">We bring expert guidance, proven process, and full lifecycle execution to ensure a seamless transition.</p>
-        </div>
-        <div class="cta-banner-actions">
-          <a href="contact" class="button-primary">Start Your IT Migration Today <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container split-grid" style="align-items:start;">
-    <div class="copy-block">
-      <p class="section-kicker">Get Your IT Migration Assessment</p>
-      <h2 class="section-title">Tell us about your environment and we will map out your next step.</h2>
-      <p class="section-copy">We will evaluate your current state, define your cloud migration strategy, and give you a clear path forward.</p>
-      <div class="panel-card panel-pad" style="margin-top:1.5rem;">
-        <h3 class="section-kicker">Your Next Step</h3>
-        <p class="section-copy" style="margin-top:0.8rem;">You can keep delaying and absorb rising infrastructure costs, increasing risk, and operational inefficiencies</p>
-        <p class="section-copy" style="margin-top:0.8rem;">Or you can execute a structured migration with cloud migration experts who know how to do this right</p>
-        <p class="section-copy" style="margin-top:1rem;">Start your IT Migration Services engagement today and move forward with confidence</p>
-      </div>
-    </div>
-
-    <div class="glass-card panel-pad">
-      <h2 class="section-kicker">Assessment Form</h2>
-      <form style="margin-top:1.5rem;display:grid;gap:1rem;">
-        <input type="text" placeholder="Name" class="field">
-        <input type="text" placeholder="Job Title" class="field">
-        <input type="email" placeholder="Work Email Address" class="field">
-        <input type="text" placeholder="Company" class="field">
-        <select class="select-field">
-          <option>IT needs</option>
-        </select>
-      </form>
-    </div>
-  </div>
-</section>
-<?php require __DIR__ . '/partials/layout-bottom.php';
+<?php require __DIR__ . '/partials/layout-bottom.php'; ?>

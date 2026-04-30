@@ -1,274 +1,387 @@
 <?php
 $page = [
-    'title' => 'M&A IT Migration Services | Post-Merger IT Integration',
+    'title'       => 'M&A IT Migration Services | Post-Merger IT Integration',
     'description' => 'M&A IT migration services for tenant consolidation, identity alignment, and post-merger technology integration with less disruption.',
-    'canonical' => 'https://itmigrationservices.com/mergers-and-acquisition',
-    'active' => 'ma',
-    'body_class' => 'site-shell',
+    'canonical'   => 'https://itmigrationservices.com/mergers-and-acquisition',
+    'active'      => 'ma',
 ];
 require __DIR__ . '/partials/layout-top.php';
 ?>
-<section class="hero-shell">
-  <div class="site-container hero-grid">
-    <div class="fade-up">
-      <span class="eyebrow"><i data-lucide="briefcase-business" class="h-4 w-4"></i> M&amp;A IT migration services</span>
-      <h1 class="hero-title">Bring post-merger systems together with less disruption.</h1>
-      <p class="hero-copy">We help organizations consolidate tenants, align identities, migrate collaboration systems, and stabilize the post-merger environment with better sequencing, clearer ownership, and less confusion for users.</p>
 
-      <div class="hero-actions">
-        <a href="contact" class="button-primary">Plan your integration <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
-        <a href="how-it-works" class="button-secondary">See our migration process <i data-lucide="workflow" class="h-4 w-4"></i></a>
+<!-- ══════════════════════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gradient-to-br from-violet-800 via-blue-700 to-blue-500 text-white pt-20 pb-28 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span class="bg-pink-400/20 border border-pink-400/40 text-pink-200 text-xs font-semibold px-3 py-1.5 rounded-full">Post-Merger Integration</span>
+          <span class="bg-green-400/20 border border-green-400/40 text-green-200 text-xs font-semibold px-3 py-1.5 rounded-full">Tenant Consolidation</span>
+          <span class="bg-purple-400/20 border border-purple-400/40 text-purple-200 text-xs font-semibold px-3 py-1.5 rounded-full">Identity Alignment</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+          M&amp;A IT Migration Services
+        </h1>
+        <p class="mt-5 text-blue-100 text-lg leading-relaxed max-w-xl">
+          Mergers &amp; Acquisitions create new IT realities overnight. IT must move fast without breaking business operations.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="contact"
+             class="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all text-sm">
+            Get M&amp;A Migration Assessment
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+          <a href="how-it-works"
+             class="inline-flex items-center gap-2 bg-white/10 border border-white/25 text-white font-semibold px-6 py-3.5 rounded-xl hover:bg-white/20 transition-all text-sm">
+            See Our Process
+          </a>
+        </div>
       </div>
 
-      <div class="hero-stats">
-        <div class="glass-card panel-pad">
-          <p class="text-3xl font-bold">Tenants</p>
-          <p class="muted" style="margin-top:0.6rem;">Consolidation planning for Microsoft 365, identity, mail, and collaboration systems.</p>
-        </div>
-        <div class="glass-card panel-pad">
-          <p class="text-3xl font-bold">Users</p>
-          <p class="muted" style="margin-top:0.6rem;">Role changes, access updates, and communication handled around real business impact.</p>
-        </div>
-        <div class="glass-card panel-pad">
-          <p class="text-3xl font-bold">Control</p>
-          <p class="muted" style="margin-top:0.6rem;">Validation-first execution to reduce operational disruption during consolidation.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="fade-up delay-1">
-      <div class="glass-card panel-pad float-soft">
-        <div class="media-frame" style="height:280px;">
-          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop" alt="Post-merger IT integration planning across global systems">
-        </div>
-        <div class="section-grid-2" style="margin-top:1.25rem;">
-          <div class="panel-card panel-pad">
-            <p class="section-kicker">Integration Scope</p>
-            <h3 style="margin-top:0.8rem;font-size:1.45rem;">Mail, files, identity, collaboration, and coexistence planning.</h3>
+      <!-- Card -->
+      <div class="animate-float">
+        <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl p-6 shadow-2xl">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=900&auto=format&fit=crop"
+               alt="Post-merger IT integration"
+               class="w-full h-52 object-cover rounded-2xl mb-5">
+          <div class="grid grid-cols-2 gap-3">
+            <div class="bg-white/10 rounded-2xl p-4">
+              <p class="text-xs text-blue-200 uppercase tracking-widest font-semibold mb-1">Integration Scope</p>
+              <p class="text-white text-sm font-semibold">Mail, files, identity, collaboration, and coexistence planning.</p>
+            </div>
+            <div class="bg-blue-600/50 border border-blue-400/30 rounded-2xl p-4">
+              <p class="text-xs text-blue-200 uppercase tracking-widest font-semibold mb-1">Outcome</p>
+              <p class="text-white text-sm font-semibold">A cleaner target environment and controlled integration path.</p>
+            </div>
           </div>
-          <div class="panel-card panel-pad" style="background:linear-gradient(135deg,#1d4ed8 0%,#2563eb 100%);border-color:rgba(96,165,250,0.28);">
-            <p class="section-kicker" style="color:#dbeafe;">Outcome</p>
-            <h3 style="margin-top:0.8rem;font-size:1.45rem;line-height:1.2;">A cleaner target environment and a more controlled integration path.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     TECH PLATFORMS (logo bar)
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-900 text-white py-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-wrap items-center justify-center gap-8">
+      <?php foreach (['Microsoft 365','Azure AD','Exchange','Teams','SharePoint','Identity'] as $t): ?>
+        <span class="bg-gray-800 border border-gray-700 text-gray-300 text-xs font-semibold px-4 py-2 rounded-full"><?= $t ?></span>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     SERVICES COVERED — dark
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-900 text-white pb-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <p class="text-blue-400 text-xs uppercase tracking-widest font-semibold mb-3">What We Cover</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Our Mergers &amp; Acquisition IT Services Cover</h2>
+      <p class="mt-4 text-gray-400 max-w-2xl mx-auto">We structure every M&amp;A digital transition to provide continuity, align with the milestones, and keep business operations running.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <?php
+      $maServices = [
+        ['icon'=>'building-2',    'label'=>'IT Carve Out Migration',          'desc'=>'Cleanly separate systems, data, and identities from the parent company to the carved-out entity.'],
+        ['icon'=>'merge',         'label'=>'Post-Merger IT Integration',       'desc'=>'Unify two technology environments after an acquisition with structured planning and wave sequencing.'],
+        ['icon'=>'users',         'label'=>'Tenant Consolidation Migration',   'desc'=>'Combine Microsoft 365 environments into a cleaner target architecture with a practical coexistence plan.'],
+        ['icon'=>'globe-2',       'label'=>'Domain &amp; Identity Separation', 'desc'=>'Align domains, SSO, permissions, groups, and governance controls across both organizations.'],
+        ['icon'=>'mail',          'label'=>'Cross-Tenant Mailbox Migration',   'desc'=>'Move email, shared mailboxes, distribution lists, and calendar data between tenants without disruption.'],
+        ['icon'=>'share-2',       'label'=>'Cross-Tenant SharePoint Migration','desc'=>'Migrate SharePoint sites, libraries, permissions, and content between tenants with structure.'],
+      ];
+      foreach ($maServices as $s):
+      ?>
+        <div class="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:border-blue-500/50 hover:-translate-y-1 transition-all">
+          <div class="w-12 h-12 bg-blue-600/20 rounded-xl flex items-center justify-center mb-4">
+            <i data-lucide="<?= $s['icon'] ?>" class="w-6 h-6 text-blue-400"></i>
+          </div>
+          <h3 class="font-bold text-white text-sm leading-snug mb-2"><?= $s['label'] ?></h3>
+          <p class="text-gray-400 text-sm leading-relaxed"><?= $s['desc'] ?></p>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     BUILT FOR DAY 5 — split
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+      <div>
+        <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Post-Merger Readiness</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+          Built for Day 5 Readiness and Post-Merger Integration
+        </h2>
+        <p class="mt-4 text-gray-500 leading-relaxed">
+          Our M&amp;A IT migration services are designed to meet close date deadlines — moving into a Microsoft Cloud environment with minimal disruption. We recommend validated migration processes to identify conflicts and dependencies, eliminating guesswork.
+        </p>
+        <div class="mt-8 grid sm:grid-cols-2 gap-4">
+          <div class="bg-gray-50 rounded-2xl p-5 border border-gray-200">
+            <i data-lucide="git-merge" class="w-6 h-6 text-blue-600 mb-3"></i>
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">Coexistence Planning</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">Support temporary operating states while the combined environment is being shaped.</p>
+          </div>
+          <div class="bg-gray-50 rounded-2xl p-5 border border-gray-200">
+            <i data-lucide="users" class="w-6 h-6 text-blue-600 mb-3"></i>
+            <h3 class="font-semibold text-gray-900 text-sm mb-1">User Transition Clarity</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">Reduce confusion around new access, collaboration spaces, and changing identities.</p>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section tight">
-  <div class="site-container">
-    <div class="logo-row">
-      <div class="logo-pill">Microsoft 365</div>
-      <div class="logo-pill">Azure AD</div>
-      <div class="logo-pill">Exchange</div>
-      <div class="logo-pill">Teams</div>
-      <div class="logo-pill">SharePoint</div>
-      <div class="logo-pill">Identity</div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">Our M&amp;A Migration Services</p>
-      <h2 class="section-title">Built for merger transitions where timing, visibility, and continuity matter.</h2>
-      <p class="section-copy">Post-merger IT work affects mail flow, access, collaboration, user experience, and executive confidence all at once. We help structure that transition so it feels deliberate instead of reactive.</p>
-    </div>
-
-    <div class="section-grid-3">
-      <article class="panel-card card-lift panel-pad">
-        <span class="icon-chip"><i data-lucide="building-2" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.55rem;">Tenant consolidation</h3>
-        <p class="muted" style="margin-top:0.75rem;">Combine Microsoft 365 environments into a cleaner target architecture with a practical coexistence plan.</p>
-      </article>
-      <article class="panel-card card-lift panel-pad">
-        <span class="icon-chip"><i data-lucide="users" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.55rem;">Identity and access</h3>
-        <p class="muted" style="margin-top:0.75rem;">Unify accounts, permissions, domains, SSO, and governance controls across both organizations.</p>
-      </article>
-      <article class="panel-card card-lift panel-pad">
-        <span class="icon-chip"><i data-lucide="database" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.55rem;">Data and collaboration</h3>
-        <p class="muted" style="margin-top:0.75rem;">Move mail, files, Teams, SharePoint, and business content while protecting continuity and access.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container split-grid">
-    <div class="copy-block">
-      <p class="section-kicker">Build The Right Migration Model</p>
-      <h2 class="section-title">M&amp;A integration needs more than just tool expertise.</h2>
-      <p class="section-copy">The real challenge is sequencing business decisions, user transitions, coexistence periods, and technical dependencies at the same time. We help define that operating model before large moves begin.</p>
-      <div class="section-grid-2" style="margin-top:2rem;">
-        <div class="glass-card panel-pad">
-          <p class="text-xl font-semibold">Coexistence planning</p>
-          <p class="muted" style="margin-top:0.6rem;">Support temporary operating states while the combined environment is being shaped.</p>
-        </div>
-        <div class="glass-card panel-pad">
-          <p class="text-xl font-semibold">User transition clarity</p>
-          <p class="muted" style="margin-top:0.6rem;">Reduce confusion around new access, new collaboration spaces, and changing identities.</p>
+        <div class="mt-6">
+          <a href="contact"
+             class="inline-flex items-center gap-2 bg-blue-600 text-white font-bold px-6 py-3.5 rounded-xl shadow-md hover:bg-blue-700 transition-all text-sm">
+            Plan Your Integration <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
         </div>
       </div>
-    </div>
-
-    <div class="panel-card panel-pad">
-      <div class="media-frame" style="height:320px;">
-        <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop" alt="Consultants working through merger integration planning">
+      <div class="rounded-3xl overflow-hidden shadow-2xl">
+        <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=900&auto=format&fit=crop"
+             alt="Post-merger IT planning session"
+             class="w-full h-[440px] object-cover">
       </div>
     </div>
   </div>
 </section>
 
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">Our M&amp;A Migration Execution Model</p>
-      <h2 class="section-title">A structured path from separation planning to stable integration.</h2>
-      <p class="section-copy">Every merger situation is different, but the delivery model still needs clear discovery, target-state design, migration sequencing, and post-go-live stabilization.</p>
+<!-- ══════════════════════════════════════════════════════════════════
+     EXECUTION MODEL — 4 phases
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Delivery Framework</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Our M&amp;A Migration Execution Model</h2>
+      <p class="mt-4 text-gray-500">Start to deploy, delivering results at every milestone.</p>
     </div>
 
-    <div class="section-grid-4">
-      <article class="panel-card panel-pad card-lift">
-        <p class="section-kicker">01</p>
-        <h3 style="margin-top:1rem;font-size:1.45rem;">Assess</h3>
-        <p class="muted" style="margin-top:0.75rem;">Audit tenants, domains, access models, collaboration platforms, and business-critical dependencies.</p>
-      </article>
-      <article class="panel-card panel-pad card-lift">
-        <p class="section-kicker">02</p>
-        <h3 style="margin-top:1rem;font-size:1.45rem;">Design</h3>
-        <p class="muted" style="margin-top:0.75rem;">Define the target operating model, wave sequencing, and coexistence period for both organizations.</p>
-      </article>
-      <article class="panel-card panel-pad card-lift">
-        <p class="section-kicker">03</p>
-        <h3 style="margin-top:1rem;font-size:1.45rem;">Integrate</h3>
-        <p class="muted" style="margin-top:0.75rem;">Run controlled migration waves for mail, files, Teams, identity, and collaboration systems.</p>
-      </article>
-      <article class="panel-card panel-pad card-lift">
-        <p class="section-kicker">04</p>
-        <h3 style="margin-top:1rem;font-size:1.45rem;">Stabilize</h3>
-        <p class="muted" style="margin-top:0.75rem;">Support users, resolve access issues, and reinforce adoption inside the combined environment.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container split-grid">
-    <div class="panel-card panel-pad">
-      <p class="section-kicker">Our Microsoft Ecosystem Expertise</p>
-      <h2 style="margin-top:0.9rem;font-size:2rem;line-height:1.1;">Technology areas we regularly align during mergers.</h2>
-      <div style="display:grid;gap:0.85rem;margin-top:1.5rem;">
-        <div class="glass-card panel-pad"><p class="text-xl font-semibold">Microsoft 365 and Exchange</p><p class="muted" style="margin-top:0.45rem;">Tenant consolidation, mail flow, shared mailboxes, and collaboration cutover planning.</p></div>
-        <div class="glass-card panel-pad"><p class="text-xl font-semibold">Identity and access</p><p class="muted" style="margin-top:0.45rem;">Domain alignment, SSO, permissions, groups, and governance normalization.</p></div>
-        <div class="glass-card panel-pad"><p class="text-xl font-semibold">Teams and SharePoint</p><p class="muted" style="margin-top:0.45rem;">Channel structures, site architecture, content ownership, and collaboration redesign.</p></div>
-      </div>
-    </div>
-
-    <div class="glass-card panel-pad">
-      <div class="media-frame" style="height:320px;">
-        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop" alt="Leadership team discussing post-merger integration and systems alignment">
-      </div>
-      <div class="inline-actions" style="margin-top:1.5rem;">
-        <a href="contact" class="button-primary">Discuss your merger project <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">Why IT Teams Choose Us</p>
-      <h2 class="section-title">The work is technical, but the integration challenge is broader than infrastructure.</h2>
-      <p class="section-copy">Successful M&amp;A migrations depend on business continuity, decision timing, access control, and the human side of change. We design around all of it.</p>
-    </div>
-
-    <div class="section-grid-2">
-      <article class="glass-card panel-pad card-lift">
-        <span class="icon-chip"><i data-lucide="network" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.5rem;">Clearer integration sequencing</h3>
-        <p class="muted" style="margin-top:0.7rem;">Dependencies and migration waves are mapped so one change does not create avoidable issues elsewhere.</p>
-      </article>
-      <article class="glass-card panel-pad card-lift">
-        <span class="icon-chip"><i data-lucide="shield-check" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.5rem;">Controlled access changes</h3>
-        <p class="muted" style="margin-top:0.7rem;">Identity and permissions are handled carefully so users keep the access they need during transition.</p>
-      </article>
-      <article class="glass-card panel-pad card-lift">
-        <span class="icon-chip"><i data-lucide="messages-square" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.5rem;">Stronger communication planning</h3>
-        <p class="muted" style="margin-top:0.7rem;">Users and stakeholders know what changes are coming and what they need to do next.</p>
-      </article>
-      <article class="glass-card panel-pad card-lift" style="background:linear-gradient(135deg,rgba(245, 209, 110, 0.16),rgba(14,20,37,0.96));">
-        <span class="icon-chip" style="background:rgba(245, 209, 110, 0.18);color:#f7d46f;"><i data-lucide="briefcase-business" class="h-5 w-5"></i></span>
-        <h3 style="margin-top:1rem;font-size:1.5rem;">Executive-ready visibility</h3>
-        <p class="muted" style="margin-top:0.7rem;color:#dfe5f5;">The integration plan becomes easier to explain upward and easier to execute across the combined organization.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="page-section" style="padding-top:4.5rem;padding-bottom:4.5rem;">
-  <div class="site-container">
-    <div class="section-grid-2" style="align-items:center;">
-      <div class="panel-card panel-pad" style="background:linear-gradient(135deg,rgba(245, 209, 110, 0.16),rgba(14,20,37,0.96));">
-        <span class="icon-chip" style="background:rgba(245, 209, 110, 0.18);color:#f7d46f;"><i data-lucide="handshake" class="h-5 w-5"></i></span>
-        <h2 style="margin-top:1rem;font-size:2rem;line-height:1.1;">An engagement model built for active merger transitions.</h2>
-        <p class="section-copy" style="margin-top:1rem;">Some organizations need end-to-end migration support. Others need planning, oversight, or executive structure around an in-flight project. We can support both models.</p>
-      </div>
-      <div class="section-grid-2">
-        <div class="logo-pill">Merger planning</div>
-        <div class="logo-pill">Tenant consolidation</div>
-        <div class="logo-pill">Identity alignment</div>
-        <div class="logo-pill">Coexistence strategy</div>
-        <div class="logo-pill">Post-go-live support</div>
-        <div class="logo-pill">User readiness</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="page-section tight">
-  <div class="site-container">
-    <div class="section-head">
-      <p class="section-kicker">Frequently Asked Questions</p>
-      <h2 class="section-title">Common questions during M&amp;A migration planning.</h2>
-    </div>
-    <div style="display:grid;gap:1rem;">
-      <article class="faq-item">
-        <h3 style="font-size:1.2rem;">Can you support Microsoft 365 tenant consolidation after an acquisition?</h3>
-        <p class="muted" style="margin-top:0.7rem;">Yes. We help define the target tenant model, coexistence strategy, migration waves, and cutover sequence for post-merger consolidation.</p>
-      </article>
-      <article class="faq-item">
-        <h3 style="font-size:1.2rem;">Do you handle identity, access, and domain alignment?</h3>
-        <p class="muted" style="margin-top:0.7rem;">Yes. Identity integration is a core part of the engagement, including permissions, governance, and access transition planning.</p>
-      </article>
-      <article class="faq-item">
-        <h3 style="font-size:1.2rem;">Can you help if the migration is already in progress?</h3>
-        <p class="muted" style="margin-top:0.7rem;">Yes. We can support planning refinement, remediation, sequencing cleanup, or broader execution help during an active merger transition.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="page-section tight">
-  <div class="site-container">
-    <div class="cta-banner">
-      <div class="cta-banner-grid">
-        <div class="cta-banner-copy">
-          <p class="section-kicker">Start Your M&amp;A Migration</p>
-          <h2 class="section-title">Need help shaping the right post-merger IT integration plan?</h2>
-          <p class="section-copy">We can help define the migration scope, coexistence strategy, integration sequence, and communication plan before major moves begin.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
+      <?php
+      $phases = [
+        ['n'=>'01','title'=>'Assess',    'icon'=>'search',       'desc'=>'Audit tenants, domains, access models, collaboration platforms, and business-critical dependencies.'],
+        ['n'=>'02','title'=>'Design',    'icon'=>'pencil-ruler', 'desc'=>'Define the target operating model, wave sequencing, and coexistence period for both organizations.'],
+        ['n'=>'03','title'=>'Integrate', 'icon'=>'git-merge',    'desc'=>'Run controlled migration waves for mail, files, Teams, identity, and collaboration systems.'],
+        ['n'=>'04','title'=>'Stabilize', 'icon'=>'shield-check', 'desc'=>'Support users, resolve access issues, and reinforce adoption inside the combined environment.'],
+      ];
+      foreach ($phases as $phase):
+      ?>
+        <div class="bg-white rounded-2xl p-6 border border-gray-200 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-blue-600 text-xs font-black uppercase tracking-widest">Phase <?= $phase['n'] ?></span>
+            <div class="w-9 h-9 bg-blue-50 rounded-xl flex items-center justify-center">
+              <i data-lucide="<?= $phase['icon'] ?>" class="w-4.5 h-4.5 text-blue-600"></i>
+            </div>
+          </div>
+          <h3 class="font-extrabold text-gray-900 text-xl mb-2"><?= $phase['title'] ?></h3>
+          <p class="text-gray-500 text-sm leading-relaxed"><?= $phase['desc'] ?></p>
         </div>
-        <div class="cta-banner-actions">
-          <a href="contact" class="button-primary">Book a migration consultation <i data-lucide="arrow-right" class="h-4 w-4"></i></a>
+      <?php endforeach; ?>
+    </div>
+
+    <!-- Phase 4 spotlight -->
+    <div class="bg-white border border-blue-200 rounded-3xl p-8 shadow-lg max-w-2xl mx-auto text-center">
+      <span class="text-blue-600 text-xs font-black uppercase tracking-widest">Phase 4 — Stabilization &amp; Post-Merger Integration</span>
+      <h3 class="text-xl font-bold text-gray-900 mt-3 mb-4">We support users from go-live through adoption.</h3>
+      <div class="grid sm:grid-cols-3 gap-3 text-sm text-left">
+        <?php foreach(['Enable business continuity','Stabilize key operations','Enable full operations'] as $it): ?>
+          <div class="flex items-center gap-2 bg-blue-50 rounded-xl px-3 py-2">
+            <i data-lucide="check-circle" class="w-4 h-4 text-blue-600 shrink-0"></i>
+            <span class="text-gray-700 text-xs font-medium"><?= $it ?></span>
+          </div>
+        <?php endforeach; ?>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     MICROSOFT ECOSYSTEM STACK
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Technology Stack</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Our Microsoft Ecosystem Execution Stack</h2>
+    </div>
+
+    <div class="grid sm:grid-cols-3 gap-6">
+      <?php
+      $stack = [
+        ['name'=>'Microsoft',  'icon'=>'layout-grid', 'color'=>'bg-blue-100 text-blue-600',   'features'=>['Microsoft Native Cross-Tenant Capabilities','Exchange Online migration','SharePoint cross-tenant sync','Identity permissions']],
+        ['name'=>'ShareGate',  'icon'=>'share-2',     'color'=>'bg-green-100 text-green-600',  'features'=>['ShareGate','Tenant consolidation','Teams migration','Site data synchronization']],
+        ['name'=>'BitTitan',   'icon'=>'zap',         'color'=>'bg-orange-100 text-orange-600','features'=>['BitTitan','Large-scale mailbox migration','Cross-tenant transfers','User scheduling']],
+      ];
+      foreach ($stack as $tool):
+      ?>
+        <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6 hover:border-blue-300 hover:shadow-md transition-all">
+          <div class="flex items-center gap-3 mb-5">
+            <div class="w-11 h-11 <?= $tool['color'] ?> rounded-xl flex items-center justify-center">
+              <i data-lucide="<?= $tool['icon'] ?>" class="w-5 h-5"></i>
+            </div>
+            <span class="font-bold text-gray-900"><?= $tool['name'] ?></span>
+          </div>
+          <ul class="space-y-2">
+            <?php foreach($tool['features'] as $f): ?>
+              <li class="flex items-center gap-2 text-sm text-gray-600">
+                <i data-lucide="check" class="w-4 h-4 text-blue-500 shrink-0"></i>
+                <?= $f ?>
+              </li>
+            <?php endforeach; ?>
+          </ul>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     WHY CHOOSE US
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+      <div class="rounded-3xl overflow-hidden shadow-xl">
+        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=900&auto=format&fit=crop"
+             alt="IT teams working on M&A migration"
+             class="w-full h-[420px] object-cover">
+      </div>
+      <div>
+        <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Competitive Advantage</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight mb-4">
+          Why IT Teams Choose Us for M&amp;A Migration
+        </h2>
+        <p class="text-gray-500 leading-relaxed mb-8">
+          Successful M&amp;A migrations depend on business continuity, decision timing, access control, and the human side of change. We design around all of it.
+        </p>
+        <div class="space-y-3">
+          <?php
+          $reasons = [
+            ['icon'=>'check-circle','text'=>'Assess the threat before every delivery'],
+            ['icon'=>'check-circle','text'=>'Manage to enterprise SLAs and migration objectives'],
+            ['icon'=>'check-circle','text'=>'Reduce disruption to user productivity with wave management'],
+            ['icon'=>'check-circle','text'=>'Synchronize calendars with their associated tenants'],
+            ['icon'=>'check-circle','text'=>'Side-by-side support and migration and on-target integration'],
+            ['icon'=>'check-circle','text'=>'Orchestrated permissions with expert scope-of-key change'],
+            ['icon'=>'check-circle','text'=>'Experience delivering migration projects at global scale'],
+          ];
+          foreach ($reasons as $r):
+          ?>
+            <div class="flex items-center gap-3">
+              <i data-lucide="<?= $r['icon'] ?>" class="w-5 h-5 text-blue-600 shrink-0"></i>
+              <span class="text-gray-700 text-sm"><?= $r['text'] ?></span>
+            </div>
+          <?php endforeach; ?>
         </div>
       </div>
     </div>
   </div>
 </section>
-<?php require __DIR__ . '/partials/layout-bottom.php';
+
+<!-- ══════════════════════════════════════════════════════════════════
+     ENGAGEMENT MODEL
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-amber-50 py-20 border-y border-amber-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+      <div>
+        <div class="w-14 h-14 bg-amber-200 rounded-2xl flex items-center justify-center mb-5">
+          <i data-lucide="handshake" class="w-7 h-7 text-amber-700"></i>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900 leading-tight mb-4">Engagement Model</h2>
+        <p class="text-gray-600 leading-relaxed mb-6">
+          Every engagement includes planning, discovery, execution, and targeted sessions. Different sessions include access to different services and support depending on your organizational needs.
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+          Every engagement includes planning, discovery, execution, and post-migration support across all service areas.
+        </p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <?php
+        $engagements = ['Merger planning','Tenant consolidation','Identity alignment','Coexistence strategy','Post-go-live support','User readiness'];
+        foreach ($engagements as $e):
+        ?>
+          <div class="bg-white border border-amber-200 rounded-xl px-4 py-3 text-center shadow-sm">
+            <span class="text-sm font-medium text-gray-700"><?= $e ?></span>
+          </div>
+        <?php endforeach; ?>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-white py-20">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <p class="text-blue-600 text-xs uppercase tracking-widest font-semibold mb-3">Common Questions</p>
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Frequently Asked Questions</h2>
+    </div>
+    <div class="space-y-3">
+      <?php
+      $faqs = [
+        ['q'=>'How do you prevent data loss during M&A migration?',     'a'=>'We implement a structured validation process with pilot waves, checkpoints, and rollback protocols. Every migration is tested before production cutover.'],
+        ['q'=>'Can you work with multiple source tenants simultaneously?','a'=>'Yes. We have experience managing complex multi-tenant consolidations across different geographic regions and compliance jurisdictions.'],
+        ['q'=>'How do you maintain compliance during migration?',        'a'=>'Compliance controls, data residency requirements, and access governance are mapped at the discovery phase and maintained throughout execution.'],
+        ['q'=>'Can you ensure identity continuity in mixed platforms?',  'a'=>'Yes. We align identities, permissions, and governance controls across both organizations to ensure seamless access after cutover.'],
+      ];
+      foreach ($faqs as $faq):
+      ?>
+        <div class="faq-item border border-gray-200 rounded-2xl overflow-hidden">
+          <button class="faq-toggle w-full flex items-center justify-between px-6 py-5 text-left hover:bg-gray-50 transition-colors">
+            <span class="font-semibold text-gray-900 text-sm pr-4"><?= $faq['q'] ?></span>
+            <i data-lucide="chevron-down" class="faq-chevron w-5 h-5 text-gray-400 shrink-0"></i>
+          </button>
+          <div class="faq-answer px-6 pb-5">
+            <p class="text-gray-500 text-sm leading-relaxed"><?= $faq['a'] ?></p>
+          </div>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     TRUSTED BRANDS
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gray-50 py-14 border-t border-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="text-center text-xs text-gray-400 uppercase tracking-widest font-semibold mb-8">Trusted By Leading Brands Around The World</p>
+    <div class="flex flex-wrap items-center justify-center gap-8 lg:gap-12">
+      <?php foreach(['Google','Adidas','Tele2','Ericsson','Facebook','Shopify','proxy','Capital','Antler','Disney'] as $b): ?>
+        <span class="text-gray-400 font-bold text-base tracking-tight hover:text-gray-600 transition-colors cursor-default"><?= $b ?></span>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════
+     CTA
+══════════════════════════════════════════════════════════════════ -->
+<section class="bg-gradient-to-br from-blue-800 via-blue-700 to-blue-500 py-20 text-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <p class="text-blue-200 text-xs uppercase tracking-widest font-semibold mb-3">Start Today</p>
+    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">
+      Start Your M&amp;A IT Migration
+    </h2>
+    <p class="mt-4 text-blue-100 leading-relaxed max-w-xl mx-auto">
+      When we are onboarding you as a trusted partner, we work as a team to ensure that your merger integration succeeds.
+    </p>
+    <div class="mt-8">
+      <a href="contact"
+         class="inline-flex items-center gap-2 bg-white text-blue-700 font-bold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all text-sm">
+        Start Your M&amp;A Migration <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<?php require __DIR__ . '/partials/layout-bottom.php'; ?>
