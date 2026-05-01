@@ -75,11 +75,11 @@
   lucide.createIcons();
 
   /* Mobile menu */
-  const mobileBtn  = document.getElementById('mobile-menu-btn');
-  const mobileMenu = document.getElementById('mobile-menu');
-  if (mobileBtn && mobileMenu) {
-    mobileBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
+  const mobBtn  = document.getElementById('mob-btn');
+  const mobMenu = document.getElementById('mob-menu');
+  if (mobBtn && mobMenu) {
+    mobBtn.addEventListener('click', () => {
+      mobMenu.classList.toggle('hidden');
     });
   }
 
@@ -88,9 +88,9 @@
     const toggle = item.querySelector('.faq-toggle');
     if (toggle) {
       toggle.addEventListener('click', () => {
-        const isOpen = item.classList.contains('open');
-        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-        if (!isOpen) item.classList.add('open');
+        const isOpen = item.classList.contains('faq-open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('faq-open'));
+        if (!isOpen) item.classList.add('faq-open');
       });
     }
   });
